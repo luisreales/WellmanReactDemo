@@ -1,0 +1,210 @@
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\spa.proxy.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.exe
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.deps.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.runtimeconfig.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.AssemblyReference.cache
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfoInputs.cache
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfo.cs
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.CoreCompileInputs.cache
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.WellmanReactCore.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WellmanReactCore.Server.props
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WellmanReactCore.Server.props
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WellmanReactCore.Server.props
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\scopedcss\bundle\WellmanReactCore.Server.styles.css
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanR.13B61D11.Up2Date
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\refint\WellmanReactCore.Server.dll
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.genruntimeconfig.cache
+C:\Proyectos\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\ref\WellmanReactCore.Server.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\spa.proxy.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.exe
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.deps.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.runtimeconfig.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.AssemblyReference.cache
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\spa.proxy.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfoInputs.cache
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfo.cs
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.CoreCompileInputs.cache
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.WellmanReactCore.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WellmanReactCore.Server.props
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WellmanReactCore.Server.props
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WellmanReactCore.Server.props
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\scopedcss\bundle\WellmanReactCore.Server.styles.css
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanR.13B61D11.Up2Date
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\refint\WellmanReactCore.Server.dll
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.genruntimeconfig.cache
+C:\TalentoTech\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\ref\WellmanReactCore.Server.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\spa.proxy.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\appsettings.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.exe
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.deps.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.runtimeconfig.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.AssemblyReference.cache
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfoInputs.cache
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.AssemblyInfo.cs
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.csproj.CoreCompileInputs.cache
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.WellmanReactCore.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WellmanReactCore.Server.props
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WellmanReactCore.Server.props
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WellmanReactCore.Server.props
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\scopedcss\bundle\WellmanReactCore.Server.styles.css
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanR.13B61D11.Up2Date
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\refint\WellmanReactCore.Server.dll
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.pdb
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\WellmanReactCore.Server.genruntimeconfig.cache
+C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\WellmanReactCore.Server\obj\Debug\net8.0\ref\WellmanReactCore.Server.dll

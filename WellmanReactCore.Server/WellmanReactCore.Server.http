@@ -1,0 +1,6 @@
+@WellmanReactCore.Server_HostAddress = http://localhost:5019
+
+GET {{WellmanReactCore.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
