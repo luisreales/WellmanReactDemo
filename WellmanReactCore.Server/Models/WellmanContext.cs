@@ -10,6 +10,8 @@ namespace WellmanReactCore.Server.Models
         public DbSet<Well> Wells { get; set; }
         public DbSet<WellBore> WellBores { get; set; }
 
+        public DbSet<DailyCost> DailyCosts { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
