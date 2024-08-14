@@ -1,0 +1,114 @@
+[
+  {
+    "Id": "49cc2434-e57d-4a68-ac36-6770dd8d35d8",
+    "Text": "Bluesky",
+    "Data": {
+      "EmailReportingId": "49cc2434-e57d-4a68-ac36-6770dd8d35d8",
+      "EmailReportingName": "Bluesky"
+    }
+  },
+  {
+    "Id": "618b87ca-f9aa-4747-bc86-41a823d713b3",
+    "Text": "Construction Wellman Report",
+    "Data": {
+      "EmailReportingId": "618b87ca-f9aa-4747-bc86-41a823d713b3",
+      "EmailReportingName": "Construction Wellman Report"
+    }
+  },
+  {
+    "Id": "867ba583-f75c-44df-8773-752594fab68a",
+    "Text": "Deep Basin Completions Test",
+    "Data": {
+      "EmailReportingId": "867ba583-f75c-44df-8773-752594fab68a",
+      "EmailReportingName": "Deep Basin Completions Test"
+    }
+  },
+  {
+    "Id": "870586e3-1761-4fb0-9f3f-e6166f59c276",
+    "Text": "Deep Basin Facility Construction",
+    "Data": {
+      "EmailReportingId": "870586e3-1761-4fb0-9f3f-e6166f59c276",
+      "EmailReportingName": "Deep Basin Facility Construction"
+    }
+  },
+  {
+    "Id": "f4160a79-c4d4-4cf3-8b15-5febf94d6a6d",
+    "Text": "DeepBasinSouth",
+    "Data": {
+      "EmailReportingId": "f4160a79-c4d4-4cf3-8b15-5febf94d6a6d",
+      "EmailReportingName": "DeepBasinSouth"
+    }
+  },
+  {
+    "Id": "16d2ac9d-53c3-4732-b24e-261765769a81",
+    "Text": "Drilling Report All",
+    "Data": {
+      "EmailReportingId": "16d2ac9d-53c3-4732-b24e-261765769a81",
+      "EmailReportingName": "Drilling Report All"
+    }
+  },
+  {
+    "Id": "09250a28-b1b5-4965-a165-18e68b41b2f6",
+    "Text": "NEBC Construction Daily Report",
+    "Data": {
+      "EmailReportingId": "09250a28-b1b5-4965-a165-18e68b41b2f6",
+      "EmailReportingName": "NEBC Construction Daily Report"
+    }
+  },
+  {
+    "Id": "f0162457-8acc-4de9-b50f-95c0e5b76600",
+    "Text": "NEBC Drilling",
+    "Data": {
+      "EmailReportingId": "f0162457-8acc-4de9-b50f-95c0e5b76600",
+      "EmailReportingName": "NEBC Drilling"
+    }
+  },
+  {
+    "Id": "cb9ab115-9748-4b91-a099-821c1ed42736",
+    "Text": "Perpetual Partner Daily Construction Reports",
+    "Data": {
+      "EmailReportingId": "cb9ab115-9748-4b91-a099-821c1ed42736",
+      "EmailReportingName": "Perpetual Partner Daily Construction Reports"
+    }
+  },
+  {
+    "Id": "24f39628-d352-40a0-8caf-d60947c97afb",
+    "Text": "PRA Facility Construction Daily",
+    "Data": {
+      "EmailReportingId": "24f39628-d352-40a0-8caf-d60947c97afb",
+      "EmailReportingName": "PRA Facility Construction Daily"
+    }
+  },
+  {
+    "Id": "fd464e82-3a5f-4c1f-b573-9fbefb946cf0",
+    "Text": "Saguaro Partner Daily Construction Report",
+    "Data": {
+      "EmailReportingId": "fd464e82-3a5f-4c1f-b573-9fbefb946cf0",
+      "EmailReportingName": "Saguaro Partner Daily Construction Report"
+    }
+  },
+  {
+    "Id": "fd08d45f-5247-483a-83be-60966926991f",
+    "Text": "Spirit River Drilling",
+    "Data": {
+      "EmailReportingId": "fd08d45f-5247-483a-83be-60966926991f",
+      "EmailReportingName": "Spirit River Drilling"
+    }
+  },
+  {
+    "Id": "f847e565-26c1-423d-b577-62bd5b8c9bf4",
+    "Text": "Todd Energy Partner Daily Construction Report",
+    "Data": {
+      "EmailReportingId": "f847e565-26c1-423d-b577-62bd5b8c9bf4",
+      "EmailReportingName": "Todd Energy Partner Daily Construction Report"
+    }
+  },
+  {
+    "Id": "b50361f4-442a-4497-8699-753b213fb143",
+    "Text": "Whitecap Resources Partner Daily Construction Report",
+    "Data": {
+      "EmailReportingId": "b50361f4-442a-4497-8699-753b213fb143",
+      "EmailReportingName": "Whitecap Resources Partner Daily Construction Report"
+    }
+  }
+]
