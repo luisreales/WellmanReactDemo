@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using WellmanReactCore.Server.Models;
 using WellmanReactCore.Server.ViewModel;
 
@@ -14,6 +15,26 @@ namespace WellmanReactCore.Server.Controllers
         public WellController(WellmanContext wellmanContext)
         {
             _context = wellmanContext;
+        }
+
+
+
+        // POST: DailyCostController/Create
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var result = new List<Well>();
+            try
+            {
+                result = _context.Wells.ToList();
+
+                return Ok(result);
+            }
+            catch
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
+
         }
 
         [HttpPost("createWell")]

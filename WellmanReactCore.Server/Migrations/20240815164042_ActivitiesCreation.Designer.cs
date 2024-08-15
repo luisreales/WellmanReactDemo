@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WellmanReactCore.Server.Models;
 
@@ -10,9 +11,11 @@ using WellmanReactCore.Server.Models;
 namespace WellmanReactCore.Server.Migrations
 {
     [DbContext(typeof(WellmanContext))]
-    partial class WellmanContextModelSnapshot : ModelSnapshot
+    [Migration("20240815164042_ActivitiesCreation")]
+    partial class ActivitiesCreation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

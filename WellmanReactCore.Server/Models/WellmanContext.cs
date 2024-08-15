@@ -12,6 +12,8 @@ namespace WellmanReactCore.Server.Models
 
         public DbSet<DailyCost> DailyCosts { get; set; }
 
+        public DbSet<Activity> Activities { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

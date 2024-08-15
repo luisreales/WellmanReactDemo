@@ -27,6 +27,7 @@ namespace WellmanReactCore.Server.Controllers
         {
             try
             {
+                 dailyCost.Id = Guid.NewGuid().ToString();
                  _wellmanContext.Add(dailyCost);
                 _wellmanContext.SaveChanges();
 
