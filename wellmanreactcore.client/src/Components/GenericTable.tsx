@@ -23,10 +23,11 @@ interface GenericTableProps {
     columns: Column[];
     data: Data[];
     onCreateClick?: () => void;
+    onCreateActivityClick?: () => void;
     onFilterClick?: () => void;
 }
 
-const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, onCreateClick, onFilterClick }) => {
+const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, onCreateClick, onCreateActivityClick, onFilterClick }) => {
     const [rowsPerPage, setRowsPerPage] = useState(10);
     const [page, setPage] = useState(0);
 
@@ -56,6 +57,14 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, onCre
                         sx={{ ml: 2 }}
                     >
                         Create
+                    </Button>
+                    <Button
+                        variant="contained"
+                        startIcon={<CreateIcon />}
+                        onClick={onCreateActivityClick}
+                        sx={{ ml: 2 }}
+                    >
+                        Create Activity
                     </Button>
                     <IconButton>
                         <MoreVertIcon />

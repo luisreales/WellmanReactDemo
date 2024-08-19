@@ -21,7 +21,6 @@ const MainContainer: React.FC = () => {
             <Toolbar />
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
                 <Routes>
-                    {/* Redirigir automáticamente la ruta "/" a "/chart" */}
                     <Route path="/" element={<Navigate to="/well" replace />} />
                     <Route path="/well" element={<AllWellsTable />} />
                     <Route path="/deposits" element={<Deposits />} />

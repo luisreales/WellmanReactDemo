@@ -1,11 +1,13 @@
 import React from 'react';
-import { TextField, TextFieldProps } from '@mui/material';
+import { TextFieldProps } from '@mui/material';
 import { styled } from '@mui/system';
+import { Controller } from 'react-hook-form';
+import { TextField } from '@mui/material';
 
 // Personalizar el TextField
 const CustomTextField = styled(TextField)(({ theme }) => ({
     '& label': {
-        color: '#555555',
+        color: '#CCC',
         fontWeight: '400'
     },
     '& label.Mui-focused': {
@@ -37,17 +39,32 @@ interface CustomTextFieldProps extends TextFieldProps {
     label: string;
     placeholder?: string;
     required?: boolean;
+    name: string;
+    control: any;
+    error?: boolean;
+    helperText?: string;
 }
 
-const CustomTextFieldComponent: React.FC<CustomTextFieldProps> = ({ label, placeholder, required, ...props }) => {
+const CustomTextFieldComponent: React.FC<CustomTextFieldProps> = ({ label, placeholder, required, name, control, error,
+    helperText, ...props }) => {
     return (
-        <CustomTextField
-            label={label}
-            placeholder={placeholder}
-            required={required}
-            variant="outlined"
-            fullWidth
-            {...props}
+        <Controller
+            name={name}
+            control={control}
+            defaultValue=""
+            render={({ field }) => (
+                <CustomTextField
+                    {...field}
+                    label={label}
+                    placeholder={placeholder}
+                    required={required}
+                    variant="outlined"
+                    fullWidth
+                    error={error}
+                    helperText={helperText}
+                    {...props}
+                />
+            )}
         />
     );
 };

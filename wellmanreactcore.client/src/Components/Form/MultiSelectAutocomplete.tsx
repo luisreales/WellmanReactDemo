@@ -1,5 +1,6 @@
 import React from 'react';
 import { Autocomplete, TextField, Chip } from '@mui/material';
+import { Controller, Control } from 'react-hook-form';
 
 interface Item {
     Id: string;
@@ -12,43 +13,71 @@ interface Item {
 
 interface MultiSelectProps {
     options: Item[];
-    placeholder: string; 
-    value: Item[];
-    onChange: (selectedValues: Item[]) => void;
+    placeholder: string;
+    control: Control<any>;
+    name: string;
 }
 
-const MultiSelectAutocomplete: React.FC<MultiSelectProps> = ({ options, placeholder, value, onChange }) => {
+const MultiSelectAutocomplete: React.FC<MultiSelectProps> = ({ options, placeholder, control, name }) => {
     return (
-        <Autocomplete
-            multiple
-            options={options}
-            getOptionLabel={(option) => option.Text} 
-            value={value}
-            onChange={(event, newValue) => {
-                onChange(newValue);
-            }}
-            renderTags={(selectedOptions, getTagProps) =>
-                selectedOptions.map((option, index) => {
-                    const { key, ...rest } = getTagProps({ index });
-                    return (
-                        <Chip
-                            key={key} 
+        <Controller
+            name={name}
+            control={control}
+            defaultValue=""
+            render={({ field }) => (
+                <Autocomplete
+                    multiple
+                    options={options}
+                    getOptionLabel={(option) => option.Text}
+                    value={field.value || []}
+                    onChange={(event, newValue) => {
+                        field.onChange(newValue);
+                    }}
+                    isOptionEqualToValue={(option, value) => option.Id === value.Id}
+                    renderTags={(selectedOptions, getTagProps) =>
+                        selectedOptions.map((option, index) => {
+                            const { key, ...rest } = getTagProps({ index });
+                            return (
+                                <Chip
+                                    key={key}
+                                    variant="outlined"
+                                    label={option.Text}
+                                    {...rest}
+                                    sx={{
+                                        backgroundColor: '#CCC',
+                                        color: '#000',
+                                        '.MuiChip-deleteIcon': {
+                                            color: '#000',
+                                        }
+                                    }}
+                                />
+                            );
+                        })
+                    }
+                    renderInput={(params) => (
+                        <TextField
+                            {...params}
                             variant="outlined"
-                            label={option.Text}
-                            {...rest}
+                            label={placeholder}
+                            placeholder={placeholder}
+                            sx={{
+                                '& .MuiInputLabel-root': {
+                                    color: '#CCC',
+                                },
+                                '& .MuiInputLabel-root.Mui-focused': {
+                                    color: '#333333',
+                                },
+                                '& .MuiOutlinedInput-root': {
+                                    '& fieldset': {
+                                        borderColor: '#e0e0e0 !important',
+                                    },
+                                },
+                            }}
                         />
-                    );
-                })
-            }
-            renderInput={(params) => (
-                <TextField
-                    {...params}
-                    variant="outlined"
-                    label={placeholder}
-                    placeholder={placeholder}
+                    )}
+                    style={{ width: '100%' }}
                 />
             )}
-            style={{ width: '100%' }}
         />
     );
 };

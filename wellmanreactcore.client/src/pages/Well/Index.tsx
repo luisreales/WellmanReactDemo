@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import GenericTable from '../../components/GenericTable';
 import CreateWellModal from './CreateWell';
+import CreateActivityModal from './CreateActivity';
 
 const columns = [
     { id: 'name', label: 'Name', minWidth: 170 },
@@ -19,12 +20,21 @@ const data = [
 
 const AllWellsTable: React.FC = () => {
     const [modalOpen, setModalOpen] = useState(false);
+    const [activityModalOpen, setActivityModalOpen] = useState(false);
     const handleOpenModal = () => {
         setModalOpen(true);
     };
 
     const handleCloseModal = () => {
         setModalOpen(false);
+    };
+
+    const handleActivityOpenModal = () => {
+        setActivityModalOpen(true);
+    };
+
+    const handleActivityCloseModal = () => {
+        setActivityModalOpen(false);
     };
 
     const handleFilterClick = () => {
@@ -38,9 +48,13 @@ const AllWellsTable: React.FC = () => {
             columns={columns}
             data={data}
             onCreateClick={handleOpenModal}
+            onCreateActivityClick={handleActivityOpenModal}
             onFilterClick={handleFilterClick}
         />
+            
+
             <CreateWellModal open={modalOpen} onClose={handleCloseModal} />
+            <CreateActivityModal open={activityModalOpen} onClose={handleActivityCloseModal} />
         </>
     );
 };

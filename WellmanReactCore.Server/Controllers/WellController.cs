@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
+using WellmanReactCore.Server.Contract;
+using WellmanReactCore.Server.Domain;
 using WellmanReactCore.Server.Models;
-using WellmanReactCore.Server.ViewModel;
 
 namespace WellmanReactCore.Server.Controllers
 {
@@ -11,10 +12,12 @@ namespace WellmanReactCore.Server.Controllers
     public class WellController : ControllerBase
     {
         private readonly WellmanContext _context;
+        private readonly IWellService _wellService;
 
-        public WellController(WellmanContext wellmanContext)
+        public WellController(WellmanContext wellmanContext, IWellService wellService)
         {
             _context = wellmanContext;
+            _wellService = wellService;
         }
 
 
@@ -38,43 +41,17 @@ namespace WellmanReactCore.Server.Controllers
         }
 
         [HttpPost("createWell")]
-        public async Task<IActionResult> CreateWell([FromBody] CreateWellViewModel model)
+        public async Task<IActionResult> CreateWell([FromBody] CreateWellDto dto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                var wellId = await _wellService.CreateWellAsync(dto);
+                return Ok(new { WellId = wellId });
             }
-
-            // Create the Well entity
-            var well = new Well
+            catch (Exception ex)
             {
-                WellName = model.WellName,
-                Status = Enum.Parse<WellStatus>(model.WellStatus),
-                WellLicenceNumber = int.Parse(model.WellLicenseNumber),
-                GeographicArea = model.GeographicArea,
-                Ground = model.Ground,
-                CutOrFill = model.CutOrFill,
-                KBToGround = model.KBToGround
-            };
-
-            _context.Wells.Add(well);
-            await _context.SaveChangesAsync();
-
-            // If CreateWellbore is true, create the WellBore entity
-            if (model.CreateWellbore)
-            {
-                var wellBore = new WellBore
-                {
-                    WellName = model.WellboreName,
-                    Status = model.WellboreStatus,
-                    WellId = well.WellId // Link to the created Well
-                };
-
-                _context.WellBores.Add(wellBore);
-                await _context.SaveChangesAsync();
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-
-            return Ok(new { well.WellId });
         }
     }
 }

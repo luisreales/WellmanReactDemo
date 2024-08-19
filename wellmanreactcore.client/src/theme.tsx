@@ -18,11 +18,11 @@ const defaultTheme = createTheme({
             contrastText: '#FFFFFF', // Assuming white contrast for readability
         },
         background: {
-            default: '#F5F8FD', // Grey Blue/50
+            default: '#FFFF', // Grey Blue/50
             paper: '#FFFFFF', // Default white for paper backgrounds
         },
         text: {
-            primary: '#2E6692', // Blue/1000 Dark
+            primary: '#333333', // Blue/1000 Dark
             secondary: '#374957', // Grey Blue/1000
         },
     },
