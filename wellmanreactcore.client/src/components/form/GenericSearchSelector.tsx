@@ -59,7 +59,7 @@ const GenericSearchSelector: React.FC<GenericSearchSelectorProps> = ({
     });
 
     const getDisplayValue = (value: GenericItem | null) => {
-        if (!value) return '';
+        if (!value || !value.Id) return '';
         const parentItem = data.find(item => item[childrenKey]?.some(child => child.id === value.id));
         return parentItem ? `${parentItem[labelKey]} / ${value[labelKey]}` : value[labelKey];
     };
@@ -76,8 +76,7 @@ const GenericSearchSelector: React.FC<GenericSearchSelectorProps> = ({
                             {...field}
                             variant="outlined"
                             placeholder={placeholder}
-                        
-                            value={getDisplayValue(field.value) || ''}
+                            value={getDisplayValue(field.value)}
                             onClick={() => setIsOpen(!isOpen)}
                             fullWidth
                             InputProps={{
@@ -147,6 +146,9 @@ const GenericSearchSelector: React.FC<GenericSearchSelectorProps> = ({
                                                     color: '#333'
                                                 }}
                                                 onClick={() => handleToggle(item[labelKey] as string)}
+
+
+
                                             >
                                                 <IconButton size="small">
                                                     <ExpandMoreIcon />

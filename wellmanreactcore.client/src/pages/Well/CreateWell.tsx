@@ -10,6 +10,7 @@ import {
   FormControl,
   Divider,
 } from "@mui/material";
+import { CircularProgress } from "@mui/material";
 import GenericSelector from "../../components/form/GenericSelector";
 import GenericSearchSelector from "../../components/form/GenericSearchSelector";
 import MultiSelectAutocomplete from "../../components/form/MultiSelectAutocomplete";
@@ -104,12 +105,20 @@ const schema = Yup.object().shape({
 });
 
 const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
+    const handleBackdropClick = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        if (event.target === event.currentTarget) {
+            return;
+        }
+        onClose();
+    };
+
   const [openSuccessModal, setOpenSuccessModal] = useState(false);
   const [openErrorModal, setOpenErrorModal] = useState(false);
+  const [loading, setLoading] = useState(false);
   const {
     control,
     handleSubmit,
-
+    reset, 
     watch,
     formState: { errors },
   } = useForm({
@@ -117,7 +126,7 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
     defaultValues: {
       wellName: "",
       wellstatus: "",
-      wellLicenseNumber: "",
+      wellLicenseNumber: 0,
       createWellbore: false,
       wellboreName: "",
       wellboreStatus: "",
@@ -138,7 +147,8 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
   const createWellbore = watch("createWellbore");
 
   const onSubmit = async (data: any) => {
-    try {
+      try {
+      setLoading(true);
       const payload = {
         WellName: data.wellName,
         WellStatus: data.wellstatus,
@@ -159,28 +169,32 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
         Ground: parseInt(data.ground, 10),
         CutOrFill: parseInt(data.cutOrFill, 10),
         KBToGround: parseInt(data.kbToGround, 10),
-      };
-      console.log("payload:", payload);
+        };
+
       const response = await axiosInstance.post(
         "/api/Well/createWell",
         payload
-      );
-        console.log("Response:", response.data);
-        debugger;
+          );
+
+      setLoading(false);
+
       if (response.status === 200 && response.data) {
-        setOpenSuccessModal(true);
+          setOpenSuccessModal(true);
+          reset();
       } else if (response.data.error === "Well license number already exists") {
         setOpenErrorModal(true);
       }
     } catch (error) {
-      console.error("Error sending data:", error);
+          setLoading(false);
+        console.error("Error sending data:", error);
       setOpenErrorModal(true);
     }
   };
 
   const handleCloseModal = () => {
     setOpenSuccessModal(false);
-    setOpenErrorModal(false);
+      setOpenErrorModal(false);
+      onClose();
   };
 
   const handleSuccessYes = () => {
@@ -193,10 +207,11 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
     console.log("Redirect to existing well");
   };
 
-  return (
+    return (
+      <>
     <Modal
       open={open}
-      onClose={onClose}
+      onClose={handleBackdropClick}
       aria-labelledby="create-well-modal-title"
       aria-describedby="create-well-modal-description"
     >
@@ -431,8 +446,15 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
           onClose={handleCloseModal}
           onYes={handleErrorYes}
         />
-      </Box>
-    </Modal>
+          </Box>
+          
+            </Modal>
+            {loading && (
+                <div style={{ display: "flex", justifyContent: "center", margin: "20px 0" }}>
+                    <CircularProgress />
+                </div>
+            )}
+        </>
   );
 };
 

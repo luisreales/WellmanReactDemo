@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import AppBarComponent from './components/AppBar';
 import DrawerComponent from './components/Drawer';
@@ -18,7 +17,6 @@ const App: React.FC = () => {
         <ThemeProvider theme={defaultTheme}>
             <Router>
                 <Box sx={{ display: 'flex' }}>
-                    <CssBaseline />
                     <AppBarComponent open={open} toggleDrawer={toggleDrawer} />
                     <DrawerComponent open={open} toggleDrawer={toggleDrawer} />
                     <MainContainer />

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { JSX, useState } from 'react';
 import {
     Paper, Table, TableContainer, TableHead, TableRow, TableCell, TableBody, Checkbox,
-    Typography, IconButton, Button, Box, Toolbar as MuiToolbar, TablePagination
+    Typography, IconButton, Box, Toolbar as MuiToolbar, TablePagination
 } from '@mui/material';
 import FilterListIcon from '@mui/icons-material/FilterList';
-import CreateIcon from '@mui/icons-material/Create';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import CreateButtonWithMenu from './form/CreateButtonWithMenu';
 
 interface Column {
     id: string;
@@ -22,12 +22,13 @@ interface GenericTableProps {
     title: string;
     columns: Column[];
     data: Data[];
+    icon: JSX.Element;
     onCreateClick?: () => void;
     onCreateActivityClick?: () => void;
     onFilterClick?: () => void;
 }
 
-const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, onCreateClick, onCreateActivityClick, onFilterClick }) => {
+const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon, onCreateClick, onCreateActivityClick, onFilterClick }) => {
     const [rowsPerPage, setRowsPerPage] = useState(10);
     const [page, setPage] = useState(0);
 
@@ -43,29 +44,18 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, onCre
     return (
         <Paper sx={{ width: '100%', mb: 2 }}>
             <MuiToolbar sx={{ justifyContent: 'space-between' }}>
+                
                 <Typography variant="h6" component="div">
-                    {title}
+                    {icon} {title}
                 </Typography>
                 <Box>
                     <IconButton onClick={onFilterClick}>
                         <FilterListIcon />
                     </IconButton>
-                    <Button
-                        variant="contained"
-                        startIcon={<CreateIcon />}
-                        onClick={onCreateClick}
-                        sx={{ ml: 2 }}
-                    >
-                        Create
-                    </Button>
-                    <Button
-                        variant="contained"
-                        startIcon={<CreateIcon />}
-                        onClick={onCreateActivityClick}
-                        sx={{ ml: 2 }}
-                    >
-                        Create Activity
-                    </Button>
+                    <CreateButtonWithMenu
+                        onCreateWellClick={onCreateClick}
+                        onCreateActivityClick={onCreateActivityClick}
+                    />
                     <IconButton>
                         <MoreVertIcon />
                     </IconButton>

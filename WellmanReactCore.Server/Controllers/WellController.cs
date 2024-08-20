@@ -11,33 +11,26 @@ namespace WellmanReactCore.Server.Controllers
     [Route("api/[controller]")]
     public class WellController : ControllerBase
     {
-        private readonly WellmanContext _context;
         private readonly IWellService _wellService;
 
-        public WellController(WellmanContext wellmanContext, IWellService wellService)
+        public WellController(IWellService wellService)
         {
-            _context = wellmanContext;
             _wellService = wellService;
         }
 
 
-
-        // POST: DailyCostController/Create
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            var result = new List<Well>();
             try
             {
-                result = _context.Wells.ToList();
-
-                return Ok(result);
+                var wells = await _wellService.GetWellsAsync();
+                return Ok(wells);
             }
-            catch
+            catch (Exception ex)
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError);
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-
         }
 
         [HttpPost("createWell")]

@@ -1,52 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Net;
-using WellmanReactCore.Server.Models;
+﻿using System.Net;
+using Microsoft.AspNetCore.Mvc;
+using WellmanReactCore.Server.Domain;
+using WellmanReactCore.Server.Services;
 
 namespace WellmanReactCore.Server.Controllers
 {
-
     [ApiController]
     [Route("[controller]")]
     public class ActivityController : ControllerBase
     {
+        private readonly IActivityService _activityService;
 
-        private readonly WellmanContext _wellmanContext;
-
-        public ActivityController(WellmanContext wellmanContext)
+        public ActivityController(IActivityService activityService)
         {
-            _wellmanContext = wellmanContext;
+            _activityService = activityService;
         }
-
-
-
 
         [HttpPost]
-        public IActionResult Create(Activity activity )
-        {
-
-            try
-            {    activity.Id = Guid.NewGuid().ToString();
-                _wellmanContext.Activities.Add(activity);
-                _wellmanContext.SaveChanges();
-                return StatusCode((int)HttpStatusCode.OK);
-            }
-            catch 
-            {
-               return  StatusCode((int)HttpStatusCode.InternalServerError);
-            }
-            
-        }
-
-
-
-        [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Create([FromBody] CreateActivityDto dto)
         {
             try
             {
-                var result = new List<Activity>();
-                result = _wellmanContext.Activities.ToList();
-                return Ok(result);
+                var activityId = await _activityService.CreateActivityAsync(dto);
+                return Ok(new { ActivityId = activityId });
             }
             catch
             {
@@ -54,5 +30,18 @@ namespace WellmanReactCore.Server.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            try
+            {
+                var result = await _activityService.GetActivitiesAsync();
+                return Ok(result);
+            }
+            catch
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
+        }
     }
 }

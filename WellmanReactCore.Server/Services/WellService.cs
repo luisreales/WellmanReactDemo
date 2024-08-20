@@ -28,11 +28,13 @@ public class WellService : IWellService
         };
 
         _context.Wells.Add(well);
+        await _context.SaveChangesAsync();
 
         if (dto.CreateWellbore)
         {
             var wellBore = new WellBore
             {
+                
                 WellName = dto.WellboreName,
                 Status = dto.WellboreStatus,
                 WellId = well.WellId,
@@ -41,10 +43,15 @@ public class WellService : IWellService
             };
 
             _context.WellBores.Add(wellBore);
+            await _context.SaveChangesAsync();
         }
 
-        await _context.SaveChangesAsync();
         return well.WellId;
+    }
+
+    public async Task<List<Well>> GetWellsAsync()
+    {
+        return await _context.Wells.ToListAsync();
     }
 }
 

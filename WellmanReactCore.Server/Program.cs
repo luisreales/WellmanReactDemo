@@ -25,10 +25,12 @@ builder.Services.AddCors(options =>
         .AllowAnyHeader());
 });
 
-builder.Services.AddDbContext<WellmanContext>(optition =>
-optition.UseSqlServer(builder.Configuration.GetConnectionString("WellmanContext")));
+builder.Services.AddDbContext<WellmanContext>(option =>
+option.UseSqlServer(builder.Configuration.GetConnectionString("WellmanContext")));
 
 builder.Services.AddScoped<IWellService, WellService>();
+builder.Services.AddScoped<IActivityService, ActivityService>();
+builder.Services.AddScoped<IDailyCostService, DailyCostService>();
 
 var app = builder.Build();
 

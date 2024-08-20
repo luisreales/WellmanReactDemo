@@ -16,10 +16,12 @@ const MainContainer: React.FC = () => {
                 flexGrow: 1,
                 height: '100vh',
                 overflow: 'auto',
+                width: '100%'
             }}
         >
             <Toolbar />
-            <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+
+            <Container maxWidth={false} sx={{ width: '100%' }}>
                 <Routes>
                     <Route path="/" element={<Navigate to="/well" replace />} />
                     <Route path="/well" element={<AllWellsTable />} />
@@ -27,6 +29,7 @@ const MainContainer: React.FC = () => {
                     <Route path="/orders" element={<Orders />} />
                 </Routes>
             </Container>
+
         </Box>
     );
 };

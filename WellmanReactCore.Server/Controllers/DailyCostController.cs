@@ -1,44 +1,32 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
+using WellmanReactCore.Server.Contract;
 using WellmanReactCore.Server.Models;
 
-namespace WellmanReactCore.Server.Controllers
+namespace WellmanReactCore.Server.Controllers;
+
+[ApiController]
+[Route("[controller]")]
+public class DailyCostController : ControllerBase
 {
+    private readonly IDailyCostService _dailyCostService;
 
-    [ApiController]
-    [Route("[controller]")]
-    public class DailyCostController  : ControllerBase
+    public DailyCostController(IDailyCostService dailyCostService)
     {
-        readonly WellmanContext _wellmanContext;
+        _dailyCostService = dailyCostService;
+    }
 
-        public DailyCostController(WellmanContext wellContext)
+    [HttpPost]
+    public IActionResult Create(DailyCost dailyCost)
+    {
+        try
         {
-            _wellmanContext = wellContext;
-
+            _dailyCostService.CreateDailyCost(dailyCost);
+            return StatusCode((int)HttpStatusCode.OK);
         }
-
-
-
-
-        // POST: DailyCostController/Create
-        [HttpPost]
-        public IActionResult Create(DailyCost dailyCost)
+        catch
         {
-            try
-            {
-                 dailyCost.Id = Guid.NewGuid().ToString();
-                 _wellmanContext.Add(dailyCost);
-                _wellmanContext.SaveChanges();
-
-                return StatusCode((int)HttpStatusCode.OK);
-            }
-            catch
-            {
-                return StatusCode((int)HttpStatusCode.InternalServerError);
-            }
+            return StatusCode((int)HttpStatusCode.InternalServerError);
         }
-
-
     }
 }
