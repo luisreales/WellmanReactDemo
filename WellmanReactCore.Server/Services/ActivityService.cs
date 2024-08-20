@@ -17,17 +17,16 @@ namespace WellmanReactCore.Server.Services
         {
             var activity = new Activity
             {
-                Id = Guid.NewGuid().ToString(),
-                Name = dto.Name,
+
+                ActivityName = dto.Name,
                 DrillingActivityCodeSet = dto.DrillingActivityCodeSet,
-                ActivityType = dto.ActivityType,
-                AfeNumber = dto.AfeNumber,
+                ActivityType = (ActivityType)dto.ActivityType,
                 IsManagedPressureDrilling = dto.IsManagedPressureDrilling
             };
 
             _wellmanContext.Activities.Add(activity);
             await _wellmanContext.SaveChangesAsync();
-            return activity.Id;
+            return activity.ActivityId.ToString();
         }
 
         public async Task<List<Activity>> GetActivitiesAsync()
