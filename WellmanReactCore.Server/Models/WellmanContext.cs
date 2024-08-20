@@ -14,8 +14,15 @@ namespace WellmanReactCore.Server.Models
 
         public DbSet<Activity> Activities { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Activity>()
+             .HasOne(a => a.Well)
+             .WithMany(w => w.Activities)
+             .HasForeignKey(a => a.WellId)
+             .OnDelete(DeleteBehavior.NoAction);  // or DeleteBehavior.NoAction
+
             base.OnModelCreating(modelBuilder);
         }
 

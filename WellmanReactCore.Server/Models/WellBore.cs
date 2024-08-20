@@ -21,5 +21,7 @@ namespace WellmanReactCore.Server.Models
 
         [ForeignKey("WellId")]
         public Well Well { get; set; } // Navigation property
+
+        public ICollection<Activity> Activities { get; set; } // Navigation property to Activity
     }
 }

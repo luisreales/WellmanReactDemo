@@ -32,5 +32,6 @@ namespace WellmanReactCore.Server.Models
         public int KBToGround { get; set; }
         // Navigation property for the related WellBore entities
         public ICollection<WellBore> WellBores { get; set; }
+        public ICollection<Activity> Activities { get; set; } // Navigation property to Activity
     }
 }

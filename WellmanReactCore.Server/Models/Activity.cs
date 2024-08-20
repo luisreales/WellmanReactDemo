@@ -1,22 +1,37 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WellmanReactCore.Server.Models
 {
     public class Activity
     {
         [Key]
-        public string Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ActivityId { get; set; } // Primary Key
 
-        public string Name { get; set; }
+        [Required]
+        public int WellId { get; set; } // Foreign Key to Well
 
-        public string DrillingActivityCodeSet { get; set; }
+        [Required]
+        public ActivityType ActivityType { get; set; } // Enum for Activity Type
 
-        public int ActivityType { get; set; }
+        [Required]
+        public string DrillingActivityCodeSet { get; set; } // Drilling Activity Code Set
 
-        public int AfeNumber { get; set; }
+        [Required]
+        public string ActivityName { get; set; } // Name of the Activity
 
-        public bool IsManagedPressureDrilling { get; set; }
+        public bool IsManagedPressureDrilling { get; set; } // Indicates if it's Managed Pressure Drilling
 
+        [Required]
+        public int WellboreId { get; set; } // Foreign Key to Wellbore
+
+        // Navigation Properties
+        [ForeignKey("WellId")]
+        public Well Well { get; set; } // Navigation property to Well
+
+        [ForeignKey("WellboreId")]
+        public WellBore WellBore { get; set; } // Navigation property to Wellbore
 
     }
 }

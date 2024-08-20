@@ -1,47 +1,75 @@
-﻿using System.Net;
-using Microsoft.AspNetCore.Mvc;
-using WellmanReactCore.Server.Domain;
-using WellmanReactCore.Server.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Net;
+using WellmanReactCore.Server.Models;
+using WellmanReactCore.Server.ViewModel;
 
 namespace WellmanReactCore.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class ActivityController : ControllerBase
+    [Route("api/[controller]")]
+    public class ActivityController : Controller
     {
-        private readonly IActivityService _activityService;
+        private readonly WellmanContext _context;
 
-        public ActivityController(IActivityService activityService)
+        public ActivityController(WellmanContext context)
         {
-            _activityService = activityService;
+            _context = context;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateActivityDto dto)
+        // Endpoint to create a new Activity
+        [HttpPost("createActivity")]
+        public async Task<IActionResult> CreateActivity([FromBody] CreateActivityViewModel model)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                var activityId = await _activityService.CreateActivityAsync(dto);
-                return Ok(new { ActivityId = activityId });
+                return BadRequest(ModelState);
             }
-            catch
+
+            // Create the Activity entity
+            var activity = new Activity
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError);
-            }
+                WellId = model.WellId,
+                ActivityType = model.ActivityType,
+                DrillingActivityCodeSet = model.DrillingActivityCodeSet,
+                ActivityName = model.ActivityName,
+                IsManagedPressureDrilling = model.IsManagedPressureDrilling,
+                WellboreId = model.WellboreId
+            };
+
+            _context.Activities.Add(activity);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { activity.ActivityId });
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
+        // Endpoint to get a list of Activities for a specific Well
+        [HttpGet("getListActivity/{wellId}")]
+        public async Task<IActionResult> GetListActivity(int wellId)
         {
-            try
+            var activities = await _context.Activities
+                                            .Where(a => a.WellId == wellId)
+                                            .ToListAsync();
+
+            if (activities == null || !activities.Any())
             {
-                var result = await _activityService.GetActivitiesAsync();
-                return Ok(result);
+                return NotFound("No activities found for the specified Well.");
             }
-            catch
+
+            return Ok(activities);
+        }
+
+        [HttpGet("getAllActivities")]
+        public async Task<IActionResult> GetAllActivities()
+        {
+            var activities = await _context.Activities.ToListAsync();
+
+            if (activities == null || !activities.Any())
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError);
+                return NotFound("No activities found.");
             }
+
+            return Ok(activities);
         }
     }
 }
