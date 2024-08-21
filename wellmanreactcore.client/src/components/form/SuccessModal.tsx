@@ -19,7 +19,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ open, onClose, onYes }) => 
                   textAlign: 'center'
               },
           }}>
-      <DialogTitle disableTypography>
+      <DialogTitle>
         <CheckCircleIcon style={{ color: 'green' }} />
               
               <Box display="flex" justifyContent="center" alignItems="center">

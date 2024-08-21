@@ -36,6 +36,7 @@ const AllWellsTable: React.FC = () => {
     const [loading, setLoading] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
     const [activityModalOpen, setActivityModalOpen] = useState(false);
+    const [updateActivities, setUpdateActivities] = useState(false);
     const handleOpenModal = () => {
         setModalOpen(true);
     };
@@ -56,9 +57,8 @@ const AllWellsTable: React.FC = () => {
                 setLoading(false);
             }
         };
-
         fetchWells();
-    }, []);
+    }, [updateActivities]);
 
     const handleCloseModal = () => {
         setModalOpen(false);
@@ -87,7 +87,7 @@ const AllWellsTable: React.FC = () => {
                 onCreateActivityClick={handleActivityOpenModal}
                 onFilterClick={handleFilterClick}
             />
-            <CreateWellModal open={modalOpen} onClose={handleCloseModal} />
+            <CreateWellModal open={modalOpen} onClose={handleCloseModal} setUpdateActivities={setUpdateActivities} updateActivities={updateActivities} />
             <CreateActivityModal open={activityModalOpen} onClose={handleActivityCloseModal} />
             {loading && (
                 <div style={{ display: "flex", justifyContent: "center", margin: "20px 0" }}>

@@ -44,6 +44,8 @@ const style = {
 interface CreateWellModalProps {
   open: boolean;
   onClose: () => void;
+  setUpdateActivities: React.Dispatch<React.SetStateAction<boolean>>;
+  updateActivities: boolean;
 }
 
 interface Item {
@@ -104,7 +106,7 @@ const schema = Yup.object().shape({
     .positive("Must be a positive number"),
 });
 
-const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
+const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpdateActivities, updateActivities }) => {
     const handleBackdropClick = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         if (event.target === event.currentTarget) {
             return;
@@ -176,7 +178,8 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose }) => {
         payload
           );
 
-      setLoading(false);
+          setLoading(false);
+          setUpdateActivities(!updateActivities);
 
       if (response.status === 200 && response.data) {
           setOpenSuccessModal(true);

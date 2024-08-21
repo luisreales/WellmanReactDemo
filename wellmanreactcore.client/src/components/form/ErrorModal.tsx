@@ -23,7 +23,7 @@ const ErrorModal: React.FC<ErrorModalProps> = ({ open, onClose, onYes }) => {
         },
       }}
     >
-      <DialogTitle disableTypography>
+      <DialogTitle>
         <ErrorIcon style={{ color: 'red', marginRight: '8px' }} />
         <Box display="flex" justifyContent="center" alignItems="center">
           <Typography variant="h6" style={{ fontWeight: 'bold' }}>
