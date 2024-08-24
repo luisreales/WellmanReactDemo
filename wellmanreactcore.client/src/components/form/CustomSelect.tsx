@@ -40,6 +40,11 @@ const CustomSelect = styled(Select)(({ theme }) => ({
         '&.Mui-focused fieldset': {
             borderColor: '#B6C5DA',
         },
+    },
+    '& .MuiOutlinedInput-input': {
+        paddingRight: '0px',
+        paddingTop: '10.5px',
+        paddingBottom: '10.5px'
     }
 }));
 

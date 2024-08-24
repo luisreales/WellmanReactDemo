@@ -1,0 +1,15 @@
+.textButton {
+    border-radius: 6px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto 0;
+    padding: 10px 12px;
+    font: 500 12px/2 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    border: 1px solid #c2c2c2;
+}

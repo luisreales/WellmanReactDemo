@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "y6QgWYn8yzpz7Kl1GVeQMD4LoLzSGPFgzHklbVJIrRA=",
+  "Hash": "pycqP4lppPUrmnpkhQKptx2HPpGfLDMta67LYD54Bno=",
   "Source": "WellmanReactCore.Server",
   "BasePath": "_content/WellmanReactCore.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\LReales\\Downloads\\WellmanReactCore 1\\WellmanReactCore\\WellmanReactCore\\wellmanreactcore.client\\wellmanreactcore.client.esproj",
+      "Identity": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\wellmanreactcore.client.esproj",
       "Version": 2,
       "Source": "wellmanreactcore.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

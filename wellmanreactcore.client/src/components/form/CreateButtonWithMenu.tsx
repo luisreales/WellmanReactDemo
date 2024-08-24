@@ -4,6 +4,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AddIcon from '@mui/icons-material/Add';
 import WellIcon from './../../assets/WellIcon';
 import ActivityIcon from './../../assets/ActivityIcon';
+import styles from './CreateButtonWithMenu.module.css';
 
 interface CreateButtonWithMenuProps {
     onCreateWellClick: () => void;
@@ -29,6 +30,7 @@ const CreateButtonWithMenu: React.FC<CreateButtonWithMenuProps> = ({
             <Button
                 variant="contained"
                 startIcon={<AddIcon />}
+                className={styles.textButton}
                 endIcon={<ArrowDropDownIcon />}
                 onClick={handleClick}
                 sx={{

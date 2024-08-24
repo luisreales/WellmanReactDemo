@@ -1,29 +1,28 @@
-import * as React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { ThemeProvider } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import AppBarComponent from './components/AppBar';
-import DrawerComponent from './components/Drawer';
-import MainContainer from './components/MainContainer';
-import defaultTheme from './theme';
+import * as React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { ThemeProvider } from "@mui/material/styles";
+import NavBar from "./components/NavBar/NavBar";
+import defaultTheme from "./theme";
+import NavSidebar from "./components/NavSidebar/NavSidebar";
+import "./App.css";
+import MainContainer from "./components/MainContainer";
 
 const App: React.FC = () => {
-    const [open, setOpen] = React.useState(true);
-    const toggleDrawer = () => {
-        setOpen(!open);
-    };
-
-    return (
-        <ThemeProvider theme={defaultTheme}>
-            <Router>
-                <Box sx={{ display: 'flex' }}>
-                    <AppBarComponent open={open} toggleDrawer={toggleDrawer} />
-                    <DrawerComponent open={open} toggleDrawer={toggleDrawer} />
-                    <MainContainer />
-                </Box>
-            </Router>
-        </ThemeProvider>
-    );
+  return (
+    <ThemeProvider theme={defaultTheme}>
+      <Router>
+        <div className="App">
+          <NavSidebar />
+          <div className="content">
+            <NavBar />
+            <div className="main-content">
+              <MainContainer />
+            </div>
+          </div>
+        </div>
+      </Router>
+    </ThemeProvider>
+  );
 };
 
 export default App;

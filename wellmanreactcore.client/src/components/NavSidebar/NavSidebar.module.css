@@ -1,0 +1,140 @@
+.navSidebar {
+    background-color: rgba(42, 85, 238, 1);
+    box-shadow: 0 4px 8px rgba(175, 175, 175, 0.25);
+    display: flex;
+    width: 95px;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 17px 5px 340px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+
+
+  
+  @media (max-width: 991px) {
+    .navSidebar {
+      padding-bottom: 100px;
+      display: none;
+    }
+  }
+  
+  .logo {
+    aspect-ratio: 1.47;
+    object-fit: contain;
+    object-position: center;
+    width: 47px;
+  }
+  
+  .menu {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    display: flex;
+    margin-top: 16px;
+    height: 644px;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0%;
+  }
+  
+  .menuItem {
+    
+      width: 85px;
+      height: 52px;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2px;
+
+  }
+
+  
+  
+  .sidebarItem {
+      width: 85px;
+      height: 52px;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+  }
+  
+  .iconWrapper {
+    border-radius: 100px;
+    align-self: center;
+    display: flex;
+    width: 48px;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    padding: 3px 10px;
+  }
+  
+  .icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 28px;
+    border-radius: 100px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+  .svgicon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 28px;
+    border-radius: 100px;
+    align-self: stretch;
+    margin: auto 0; 
+    transition: filter 0.3s ease;
+    fill:none;
+  }
+  
+  .svgicon:hover {
+    filter: invert(0.1);
+    fill: blue; 
+    width: 50px;
+    height: 31px;
+    flex-grow: 0;
+    padding: 2px 4.5px 1px 3.5px;
+    border-radius: 27px;
+    background-color: white;
+    /* This filter makes the image blue, but you may need to tweak it */
+  }
+  
+  .menuLabel {
+    align-self: stretch;
+    width: 100%;
+    gap: 8px;
+    color: rgba(245, 248, 253, 1);
+    text-align: center;
+    padding: 0 3px;
+    font: 400 12px/2 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .menuLabel {
+      white-space: normal;
+    }
+  }
+  
+  .separator {
+    z-index: 10;
+    width: 42px;
+    height: 1px;
+    margin: -21px 0 -68px;
+    border: 1px solid rgba(111, 142, 252, 1);
+  }
+  
+  @media (max-width: 991px) {
+    .separator {
+      margin-bottom: 10px;
+    }
+  }

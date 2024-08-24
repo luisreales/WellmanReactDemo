@@ -1,3 +1,4 @@
 C:\Proyectos\WellmanReactCore\wellmanreactcore.client\obj\Debug\wellmanreactcore.client.esproj.CoreCompileInputs.cache
 C:\TalentoTech\WellmanReactCore\WellmanReactCore\wellmanreactcore.client\obj\Debug\wellmanreactcore.client.esproj.CoreCompileInputs.cache
 C:\Users\LReales\Downloads\WellmanReactCore 1\WellmanReactCore\WellmanReactCore\wellmanreactcore.client\obj\Debug\wellmanreactcore.client.esproj.CoreCompileInputs.cache
+C:\Probar2\WellmanReactDemo\wellmanreactcore.client\obj\Debug\wellmanreactcore.client.esproj.CoreCompileInputs.cache

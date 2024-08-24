@@ -1,0 +1,75 @@
+.generalSection {
+    width: 100%;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sidebar {
+    width: 16%;
+  }
+  
+  .mainContent {
+    width: 84%;
+  }
+  
+  .sectionHeader {
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 2px 30px;
+  }
+  
+  .sectionTitle {
+    color: #333;
+    font: 700 13px/30px Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -0.13px;
+  }
+  
+  .activityCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 16px;
+    padding: 0 30px;
+  }
+  
+  .schematicsButton {
+    align-self: start;
+    display: flex;
+    min-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #c2c2c2;
+    padding: 10px 9px;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .schematicsIcon,
+  .arrowIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .mainContent {
+      width: 100%;
+    }
+  
+    .sectionHeader {
+      padding: 0 20px;
+    }
+  
+    .activityCards {
+      padding: 0 20px;
+    }
+  }

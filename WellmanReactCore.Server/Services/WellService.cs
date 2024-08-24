@@ -53,5 +53,10 @@ public class WellService : IWellService
     {
         return await _context.Wells.ToListAsync();
     }
+
+    public async Task<Well> GetWellByIdAsync(int id)
+    {
+        return await _context.Wells.FirstOrDefaultAsync(w => w.WellId == id);
+    }
 }
 

@@ -34,9 +34,10 @@ const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder
                             <InputAdornment
                                 position="end"
                                 sx={{
-                                    padding: '15px',
-                                    paddingTop: '27px',
-                                    paddingBottom: '27px',
+                                    paddingLeft: '15px',
+                                    paddingRight: '15px',
+                                    paddingTop: '10px',
+                                    paddingBottom: '10px',
                                     borderRadius: '0 4px 4px 0',
                                     backgroundColor: '#f5f5f5',
                                     color: '#4a4a4a',
@@ -56,6 +57,8 @@ const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder
                     sx={{
                         '& .MuiOutlinedInput-input': {
                             paddingRight: '0px',
+                            paddingTop: '2px',
+                            paddingBottom: '2px'
                         },
                         '& .MuiOutlinedInput-root': {
                             '& fieldset': {

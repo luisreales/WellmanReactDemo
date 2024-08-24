@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\LReales\\Downloads\\WellmanReactCore 1\\WellmanReactCore\\WellmanReactCore\\WellmanReactCore.Server\\..\\wellmanreactcore.client",
+"WorkingDirectory": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\..\\wellmanreactcore.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

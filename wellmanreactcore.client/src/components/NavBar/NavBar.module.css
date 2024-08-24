@@ -1,0 +1,158 @@
+.navBar {
+    padding: 0 30px 0 0;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(227, 227, 227, 0.35);
+    display: flex;
+    gap: 40px 821px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .navBar {
+      padding-right: 20px;
+    }
+  }
+  
+  .logoWrapper {
+    align-self: stretch;
+    display: flex;
+    min-height: 65px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 138px;
+    margin: auto 0;
+    padding: 1px 8px 1px 30px;
+  }
+  
+  @media (max-width: 991px) {
+    .logoWrapper {
+      padding-left: 20px;
+    }
+  }
+  
+  .logoContainer {
+    display: flex;
+    min-height: 64px;
+    max-width: 100%;
+    width: 134px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    aspect-ratio: 4.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  .navActions {
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 22px;
+    justify-content: flex-start;
+    margin: auto 0;
+  }
+  
+  .iconGroup {
+    align-self: stretch;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    justify-content: flex-start;
+    margin: auto 0;
+  }
+  
+  .icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .profileDropdown {
+    border-radius: 8px;
+    align-self: stretch;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: #333;
+    justify-content: flex-start;
+    margin: auto 0;
+    padding: 3px 7px;
+    font: 400 12px/1 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    border: 1px solid #c2c2c2;
+  }
+  
+  .profileInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 105px;
+    margin: auto 0;
+    padding: 5px 0;
+  }
+  
+  .profileName {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-start;
+    padding: 5px 8px;
+  }
+  
+  .profileAvatar {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 35px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .notificationBadge {
+    align-self: flex-start;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    white-space: nowrap;
+    justify-content: flex-start;
+    left: 135px;
+    top: 7px;
+    font: 600 10px/1.4 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .notificationBadge {
+      white-space: initial;
+    }
+  }
+  
+  .badgeContent {
+    border-radius: 100px;
+    background-color: #ff004d;
+    padding: 2px 5px;
+  }
+  
+  @media (max-width: 991px) {
+    .badgeContent {
+      white-space: initial;
+    }
+  }

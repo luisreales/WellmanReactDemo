@@ -6,4 +6,5 @@ public interface IWellService
 {
     Task<int> CreateWellAsync(CreateWellDto dto);
     Task<List<Well>> GetWellsAsync();
+    Task<Well> GetWellByIdAsync(int id);
 }

@@ -1,0 +1,47 @@
+.wellFilterContainer {
+    border-radius: 0;
+    display: flex;
+    gap: 40px 100px;
+    font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:22px;
+    padding-right:22px;
+}
+
+.filterGroup {
+    display: flex;
+    gap: 14px;
+}
+
+.wellCount {
+    color: #333;
+    font-size: 12px;
+    line-height: 21px;
+    margin: auto 0;
+}
+
+.actionGroup {
+    display: flex;
+    gap: 8px;
+    font-size: 11px;
+    color: #555;
+    white-space: nowrap;
+    line-height: 20px;
+    margin: auto 0;
+}
+
+@media (max-width: '100%') {
+    .actionGroup {
+        white-space: initial;
+    }
+}
+
+.showText {
+    color: #333;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    margin: auto 0;
+}

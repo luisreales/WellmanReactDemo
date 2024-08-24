@@ -1,0 +1,35 @@
+.dropdownContainer {
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #b6c5da;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(230, 230, 231, 0.8);
+    display: flex;
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .dropdownContainer {
+        white-space: initial;
+    }
+}
+
+.dropdownText {
+    align-self: stretch;
+    margin: auto 0;
+}
+
+.dropdownIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+}

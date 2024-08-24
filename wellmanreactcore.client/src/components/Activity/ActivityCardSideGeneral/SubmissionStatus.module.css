@@ -1,0 +1,74 @@
+.submissionStatus {
+    border-radius: 10px;
+    border: 1px solid #d6deea;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(227, 227, 227, 0.3);
+    margin-top: 16px;
+    padding: 8px 21px 25px;
+  }
+  
+  .statusHeader {
+    border-bottom: 1px solid #d6deea;
+    padding-bottom: 8px;
+  }
+  
+  .statusTitle {
+    font-size: 13px;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  .statusContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+  
+  .statusDates,
+  .statusDetails {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .dateInfo {
+    margin-bottom: 15px;
+  }
+  
+  .daysToSubmit {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .detailItem {
+    margin-bottom: 10px;
+  }
+  
+  .statusTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+  }
+  
+  .statusTable th,
+  .statusTable td {
+    border: 1px solid #d6deea;
+    padding: 12px 14px;
+    text-align: left;
+    font-size: 11px;
+  }
+  
+  .statusTable th {
+    background-color: #f5f8fd;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .submissionStatus {
+      padding-left: 20px;
+    }
+  
+    .statusContent {
+      flex-direction: column;
+    }
+  }

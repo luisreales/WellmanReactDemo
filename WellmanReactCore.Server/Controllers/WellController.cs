@@ -46,5 +46,23 @@ namespace WellmanReactCore.Server.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            try
+            {
+                var well = await _wellService.GetWellByIdAsync(id);
+                if (well == null)
+                {
+                    return NotFound($"Well with ID {id} not found.");
+                }
+                return Ok(well);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
     }
 }

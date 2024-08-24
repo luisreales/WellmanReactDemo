@@ -1,0 +1,13 @@
+.container {
+    background-color: rgba(232, 232, 232, 1);
+    display: flex;
+    min-height: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+    }
+  }
