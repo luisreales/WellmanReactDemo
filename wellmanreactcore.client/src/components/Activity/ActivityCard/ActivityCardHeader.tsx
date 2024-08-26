@@ -6,9 +6,10 @@ import Header from './Header/Header';
 
 interface ActivityCardProps {
     onClose: () => void;
+    onClick: () => void;
 }
 
-const ActivityCardHeader: React.FC<ActivityCardProps> = ({ onClose }) => {
+const ActivityCardHeader: React.FC<ActivityCardProps> = ({ onClose, onClick }) => {
   return (
     <section className={styles.card}>
       <div className={styles.activityInfo}>
@@ -44,7 +45,7 @@ const ActivityCardHeader: React.FC<ActivityCardProps> = ({ onClose }) => {
         <div className={styles.statusLabel}>Status</div>
         <StatusIndicator status="Active" />
         <div>
-          <Header />
+          <Header onClick={onClick}/>
         </div>
       </div>
     </section>

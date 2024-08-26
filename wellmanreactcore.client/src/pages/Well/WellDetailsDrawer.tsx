@@ -3,6 +3,7 @@ import { Drawer, Box, Typography, CircularProgress } from '@mui/material';
 import axiosInstance from './../../services/axios';
 import BoxActivitySideGeneral from '../../components/Activity/BoxActivitySideGeneral/BoxActivitySideGeneral';
 import ActivityCardHeader from '../../components/Activity/ActivityCard/ActivityCardHeader';
+import DailyActivity from '../../components/Activity/DailyActivity/DailyActivity';
 
 interface WellDetailsDrawerProps {
     wellId: string | null;
@@ -13,6 +14,11 @@ interface WellDetailsDrawerProps {
 const WellDetailsDrawer: React.FC<WellDetailsDrawerProps> = ({ wellId, open, onClose }) => {
     const [wellDetails, setWellDetails] = useState<any>(null);
     const [loading, setLoading] = useState(false);
+    const [toggleDailyActivity, setToggleDailyActivity] = useState(false);
+
+    const handleButtonClick = () => {
+        setToggleDailyActivity(!toggleDailyActivity);
+    };
 
     useEffect(() => {
         if (wellId) {
@@ -36,8 +42,11 @@ const WellDetailsDrawer: React.FC<WellDetailsDrawerProps> = ({ wellId, open, onC
                     <CircularProgress />
                 ) : wellDetails ? (
                         <div>
-                            <ActivityCardHeader onClose={onClose} />
+                            <ActivityCardHeader onClose={onClose} onClick={handleButtonClick}  />
                             <BoxActivitySideGeneral />
+                            <Drawer anchor="right" open={toggleDailyActivity}>
+                                <DailyActivity />
+                            </Drawer>
                     </div>
                 ) : (
                     <Typography variant="body1">No details available.</Typography>

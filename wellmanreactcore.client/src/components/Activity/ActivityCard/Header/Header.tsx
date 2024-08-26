@@ -4,8 +4,11 @@ import IconButton from './IconButton';
 import TextButton from './TextButton';
 import PrimaryButton from './PrimaryButton';
 
-// Header component definition using React.FC
-const Header: React.FC = () => {
+interface HeaderProps {
+  onClick: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onClick }) => {
   return (
     <header className={styles.header}>
       <div className={styles.divider} />
@@ -35,6 +38,7 @@ const Header: React.FC = () => {
         <PrimaryButton
           iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/f604f15077caa48a121b6400d3e93ab20bb95b4d25501e59c2adbe153e31dffb?placeholderIfAbsent=true&apiKey=761b6e6b1cdb4241a9278975fab25b40"
           text="Daily Activity"
+          onClick={onClick}
         />
         <button className={styles.moreButton}>
           <img
