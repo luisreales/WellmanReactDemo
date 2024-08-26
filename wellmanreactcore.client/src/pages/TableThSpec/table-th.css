@@ -1,0 +1,59 @@
+.table-th {
+    align-items: center;
+    background-color: #f5f8fd;
+    border-color: #d6deea;
+    display: flex;
+    position: relative;
+    width: 260px;
+}
+
+    .table-th .img {
+        height: 20px;
+        position: relative;
+        width: 20px;
+    }
+
+    .table-th .frame {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        padding: 0px 3px;
+        position: relative;
+    }
+
+    .table-th .title {
+        color: #333333;
+        font-family: "Be Vietnam Pro-Bold", Helvetica;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin-top: -1px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .table-th .div {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        position: relative;
+    }
+
+    .table-th.rounded {
+        border: 1px solid;
+        border-radius: 8px 0px 0px 0px;
+        padding: 8px;
+    }
+
+    .table-th.none {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        padding: 8px 16px;
+    }

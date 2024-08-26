@@ -1,0 +1,41 @@
+.table-cell {
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #d6deea;
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: flex;
+    height: 39px;
+    position: relative;
+    width: 261px;
+}
+
+    .table-cell .text-cell-table {
+        color: #333333;
+        font-size: 11px;
+        letter-spacing: 0;
+        line-height: 16px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .table-cell.regular {
+        padding: 10px 14px;
+    }
+
+    .table-cell.semibold {
+        padding: 12px 14px;
+    }
+
+    .table-cell.regular .text-cell-table {
+        font-family: "Be Vietnam Pro-Medium", Helvetica;
+        font-weight: 500;
+    }
+
+    .table-cell.semibold .text-cell-table {
+        font-family: "Be Vietnam Pro-SemiBold", Helvetica;
+        font-weight: 600;
+        margin-top: -1.5px;
+    }

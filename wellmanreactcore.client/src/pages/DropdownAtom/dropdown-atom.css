@@ -1,0 +1,35 @@
+
+
+.dropdown-atom {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #b6c5da;
+    border-radius: 4px;
+    box-shadow: var(--shadow-grey-10);
+    display: flex;
+    min-height: 30px;
+    padding: 0px 10px;
+    position: relative;
+    width: 47px;
+}
+
+    .dropdown-atom .dropdown {
+        color: #333333;
+        font-family: var(--label-1-font-family);
+        font-size: var(--label-1-font-size);
+        font-style: var(--label-1-font-style);
+        font-weight: var(--label-1-font-weight);
+        letter-spacing: var(--label-1-letter-spacing);
+        line-height: var(--label-1-line-height);
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .dropdown-atom .icon-caret-down {
+        height: 16px;
+        margin-right: -2px;
+        position: relative;
+        width: 16px;
+    }

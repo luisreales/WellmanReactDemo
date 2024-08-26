@@ -1,0 +1,21 @@
+.component-switch {
+    height: 23px;
+    width: 44px;
+}
+
+    .component-switch .icon-switch {
+        background-color: #d6deea;
+        border-radius: 25.88px;
+        height: 23px;
+    }
+
+    .component-switch .ellipse-2 {
+        background-color: #ffffff;
+        border-radius: 10.35px;
+        box-shadow: 0px 0px 2.59px #575757b2;
+        height: 21px;
+        left: 1px;
+        position: relative;
+        top: 1px;
+        width: 21px;
+    }

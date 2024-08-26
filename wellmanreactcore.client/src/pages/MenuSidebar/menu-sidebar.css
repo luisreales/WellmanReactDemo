@@ -1,0 +1,135 @@
+.menu-sidebar {
+    height: 1225px;
+    width: 225px;
+}
+
+    .menu-sidebar .menu-sidebar-level {
+        background-color: #ffffff;
+        border: 1px solid;
+        border-color: #e8e8e8;
+        box-shadow: var(--shadow-column-form);
+        height: 1227px;
+        left: -1px;
+        position: relative;
+        top: -1px;
+        width: 227px;
+    }
+
+    .menu-sidebar .frame-3 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 10px;
+        position: relative;
+        width: 225px;
+    }
+
+    .menu-sidebar .sidebar-menu {
+        align-items: flex-start;
+        align-self: stretch;
+        background-color: #f2f7ff;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e8e8e8;
+        display: flex;
+        flex: 0 0 auto;
+        padding: 12px 13px 12px 36px;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-sidebar .frame-4 {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-grow: 1;
+        gap: 4px;
+        position: relative;
+    }
+
+    .menu-sidebar .icono {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        height: 24px;
+        position: relative;
+        width: 16px;
+    }
+
+    .menu-sidebar .img-2 {
+        height: 14px;
+        position: relative;
+        width: 14px;
+    }
+
+    .menu-sidebar .label {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 8px;
+        position: relative;
+    }
+
+    .menu-sidebar .label-submenu {
+        align-items: center;
+        align-self: stretch;
+        display: flex;
+        flex: 0 0 auto;
+        padding: 4px 3px;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-sidebar .label-menu {
+        color: #2a55ee;
+        flex: 1;
+        font-family: "Be Vietnam Pro-Regular", Helvetica;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 14px;
+        margin-top: -1px;
+        position: relative;
+    }
+
+    .menu-sidebar .arrow {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 8px;
+        position: relative;
+    }
+
+    .menu-sidebar .frame-wrapper {
+        align-items: flex-start;
+        align-self: stretch;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e8e8e8;
+        display: flex;
+        flex: 0 0 auto;
+        padding: 12px 13px 12px 36px;
+        position: relative;
+        width: 100%;
+    }
+
+    .menu-sidebar .text-wrapper {
+        color: #333333;
+        flex: 1;
+        font-family: "Be Vietnam Pro-Regular", Helvetica;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 14px;
+        margin-top: -1px;
+        position: relative;
+    }
+
+    .menu-sidebar .icon-arrow-right {
+        height: 18px;
+        position: relative;
+        width: 18px;
+    }

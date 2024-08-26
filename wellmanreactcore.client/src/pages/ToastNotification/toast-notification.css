@@ -1,0 +1,109 @@
+
+
+.toast-notification {
+    align-items: center;
+    background-color: #ffefd8;
+    border: 1px solid;
+    border-color: #f9d8b9;
+    display: flex;
+    gap: 10px;
+    height: 35px;
+    position: relative;
+    width: 1345px;
+}
+
+    .toast-notification .notification {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-grow: 1;
+        gap: 8px;
+        padding: 7px 16px 8px 32px;
+        position: relative;
+    }
+
+    .toast-notification .icon {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 10px;
+        padding: 0px 0px 0px 16px;
+        position: relative;
+    }
+
+    .toast-notification .img-2 {
+        height: 16px;
+        position: relative;
+        width: 16px;
+    }
+
+    .toast-notification .message {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-grow: 1;
+        gap: 8px;
+        position: relative;
+    }
+
+    .toast-notification .content {
+        align-items: flex-end;
+        display: flex;
+        flex: 1;
+        flex-grow: 1;
+        gap: 10px;
+        position: relative;
+    }
+
+    .toast-notification .message-providing-wrapper {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-grow: 1;
+        gap: 10px;
+        position: relative;
+    }
+
+    .toast-notification .message-providing {
+        color: #222222;
+        font-family: "Be Vietnam Pro-Medium", Helvetica;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 18px;
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .toast-notification .view-more {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 10px;
+        position: relative;
+    }
+
+    .toast-notification .text-wrapper {
+        color: #555555;
+        font-family: "Be Vietnam Pro-Regular", Helvetica;
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 18px;
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .toast-notification .close {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 10px;
+        justify-content: flex-end;
+        padding: 0px 0px 0px 10px;
+        position: relative;
+    }
