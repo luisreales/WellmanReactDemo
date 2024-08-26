@@ -1,0 +1,52 @@
+
+
+.button-layout {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #c2c2c2;
+    border-radius: 8px;
+    height: 34px;
+    position: relative;
+    width: 92px;
+}
+
+    .button-layout .overlap-group {
+        height: 34px;
+        left: 1px;
+        position: absolute;
+        top: 0;
+        width: 46px;
+    }
+
+    .button-layout .rectangle {
+        height: 32px;
+        left: 0;
+        position: absolute;
+        top: 1px;
+        width: 46px;
+    }
+
+    .button-layout .icon-list {
+        height: 24px;
+        left: 9px;
+        position: absolute;
+        top: 5px;
+        width: 26px;
+    }
+
+    .button-layout .line {
+        height: 34px;
+        left: 45px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 1px;
+    }
+
+    .button-layout .icon-grid {
+        height: 24px;
+        left: 54px;
+        position: absolute;
+        top: 4px;
+        width: 24px;
+    }

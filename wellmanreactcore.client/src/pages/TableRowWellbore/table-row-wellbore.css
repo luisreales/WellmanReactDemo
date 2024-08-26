@@ -1,0 +1,135 @@
+.table-row-wellbore {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    height: 39px;
+    justify-content: center;
+    position: relative;
+    width: 1095px;
+}
+
+    .table-row-wellbore .table-cell-instance {
+        width: 258px !important;
+    }
+
+    .table-row-wellbore .design-component-instance-node {
+        font-family: "Be Vietnam Pro-Medium", Helvetica !important;
+        font-weight: 500 !important;
+    }
+
+    .table-row-wellbore .table-cell-status {
+        align-items: center;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #d6deea;
+        border-left-style: solid;
+        border-left-width: 1px;
+        display: flex;
+        gap: 10px;
+        height: 39px;
+        padding: 8px 10px;
+        position: relative;
+        width: 258px;
+    }
+
+    .table-row-wellbore .card-status {
+        align-items: center;
+        background-color: #d6f5db;
+        border-radius: 15px;
+        display: inline-flex;
+        flex: 0 0 auto;
+        padding: 0px 12px 0px 6px;
+        position: relative;
+    }
+
+    .table-row-wellbore .frame-2 {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        position: relative;
+    }
+
+    .table-row-wellbore .check {
+        align-items: center;
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px 0px;
+        position: relative;
+        width: 14px;
+    }
+
+    .table-row-wellbore .ico-active {
+        height: 12px;
+        position: relative;
+        width: 12px;
+    }
+
+    .table-row-wellbore .ellipse {
+        background-color: #019419;
+        border-radius: 3px;
+        height: 6px;
+        left: 3px;
+        position: relative;
+        top: 3px;
+        width: 6px;
+    }
+
+    .table-row-wellbore .requisiciones-pendie {
+        color: #019419;
+        font-family: "Be Vietnam Pro-Medium", Helvetica;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        line-height: 15px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .table-row-wellbore .table-cell-2 {
+        border-right-style: solid !important;
+        border-right-width: 1px !important;
+        width: 258px !important;
+    }
+
+    .table-row-wellbore .table-cell-3 {
+        border-left-style: unset !important;
+        border-left-width: unset !important;
+        border-right-style: solid !important;
+        border-right-width: 1px !important;
+        width: 258px !important;
+    }
+
+    .table-row-wellbore .table-cell-icon {
+        align-items: center;
+        align-self: stretch;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #d6deea;
+        border-right-style: solid;
+        border-right-width: 1px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        padding: 9px 8px;
+        position: relative;
+        width: 63px;
+    }
+
+    .table-row-wellbore .icon-arrow-down-wrapper {
+        align-items: center;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .table-row-wellbore .icon-arrow-down {
+        height: 20px;
+        position: relative;
+        width: 20px;
+    }

@@ -1,0 +1,105 @@
+
+
+.tabs-item {
+    align-items: center;
+    border-bottom-style: solid;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px 15px;
+    position: relative;
+}
+
+    .tabs-item .text {
+        align-items: flex-start;
+        display: inline-flex;
+        flex: 0 0 auto;
+        position: relative;
+    }
+
+    .tabs-item .tab-name {
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 20px;
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .tabs-item .arrow {
+        align-items: flex-start;
+        display: inline-flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .tabs-item .icon-badge {
+        align-items: center;
+        background-color: #ffe4e4;
+        border-radius: 100px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        padding: 2px 8px;
+        position: relative;
+    }
+
+    .tabs-item .element {
+        font-family: "Be Vietnam Pro-SemiBold", Helvetica;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 14px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    .tabs-item.default {
+        border-bottom-width: 1px;
+        border-color: #d6deea;
+        width: 120px;
+    }
+
+    .tabs-item.active {
+        border-bottom-width: 2px;
+        border-color: #333333;
+        width: 130px;
+    }
+
+    .tabs-item.default .tab-name {
+        color: #555555;
+        font-family: "Be Vietnam Pro-Regular", Helvetica;
+        font-weight: 400;
+    }
+
+    .tabs-item.active .tab-name {
+        color: #333333;
+        font-family: "Be Vietnam Pro-SemiBold", Helvetica;
+        font-weight: 600;
+    }
+
+    .tabs-item.active .arrow {
+        height: 20px;
+    }
+
+    .tabs-item.default .icon-badge {
+        flex: 0 0 auto;
+    }
+
+    .tabs-item.active .icon-badge {
+        flex: 1;
+        flex-grow: 1;
+    }
+
+    .tabs-item.default .element {
+        color: #555555;
+        margin-top: -1px;
+    }
+
+    .tabs-item.active .element {
+        color: #333333;
+    }
