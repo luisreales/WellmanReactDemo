@@ -1,7 +1,11 @@
 import React from "react";
 import styles from './DailyActivity.module.css';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+    onClose: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onClose }) => {
   return (
     <header className={styles.header}>
       <div className={styles.headerContent}>
@@ -16,6 +20,7 @@ const Header: React.FC = () => {
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/9876a751e10e0e86e7e2161fde02ea7cdcc7c0c199b81efb6b86e0665762fda6?placeholderIfAbsent=true&apiKey=761b6e6b1cdb4241a9278975fab25b40"
         alt="User profile"
         className={styles.profileIcon}
+        onClick={onClose}
       />
     </header>
   );

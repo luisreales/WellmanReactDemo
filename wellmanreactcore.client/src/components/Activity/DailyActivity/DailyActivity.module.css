@@ -2,7 +2,7 @@
     background: #fff;
     box-shadow: 0 0 20px rgba(56, 56, 56, 0.7);
     display: flex;
-    max-width: 480px;
+    max-width: 500px;
     width: 100%;
     flex-direction: column;
     overflow: hidden;
@@ -14,8 +14,8 @@
     box-shadow: 0 0 8px rgba(163, 174, 190, 0.6);
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    padding: 15px 18px;
+    justify-content: space-around;
+    padding: 15px 8px;
     color: #fff;
   }
   
@@ -36,6 +36,7 @@
   }
   
   .profileIcon {
+    padding-top: 5px;
     width: 30px;
     height: 30px;
   }

@@ -20,6 +20,10 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
         setToggleDailyActivity(!toggleDailyActivity);
     };
 
+    const handleClose = () => {
+        setToggleDailyActivity(false);
+    };
+
     useEffect(() => {
         if (activityId) {
             setLoading(false);
@@ -53,10 +57,10 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
                 {/*)}*/}
                 
                 {   <div>
-                        <ActivityCardHeader onClose={onClose} onClick={handleButtonClick} />
+                    <ActivityCardHeader onClose={onClose} onClick={handleButtonClick}  />
                         <BoxActivitySideGeneral />
-                        <Drawer anchor="right" open={toggleDailyActivity}>
-                            <DailyActivity />
+                    <Drawer anchor="right" open={toggleDailyActivity} onClose={handleClose}>
+                        <DailyActivity onClose={handleClose} />
                         </Drawer>
                     </div>
                }

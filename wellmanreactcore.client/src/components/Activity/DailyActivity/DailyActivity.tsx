@@ -6,10 +6,14 @@ import LockSwitch from './LockSwitch';
 import OptionsMenu from './OptionsMenu';
 import SubmitBar from './SubmitBar';
 
-const DailyActivity: React.FC = () => {
+interface DailyActivityProps {
+    onClose: () => void;
+}
+
+const DailyActivity: React.FC<DailyActivityProps> = ({ onClose }) => {
   return (
     <main className={styles.sidebarDailyActivity}>
-      <Header />
+          <Header onClose={onClose} />
       <WorkDay />
       <LockSwitch />
       <OptionsMenu />

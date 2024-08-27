@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\activitydetailsdrawer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.server\\services\\activityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|solutionrelative:wellmanreactcore.server\\services\\activityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.server\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|solutionrelative:wellmanreactcore.server\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\dailyactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\dailyactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welltabs.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welltabs.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\dailyactivity.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\dailyactivity.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welldashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welldashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycardheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycardheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitycard\\header\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\header\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.server\\services\\activityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|solutionrelative:wellmanreactcore.server\\services\\activityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.server\\contract\\iactivityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitytable\\activitytable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitytable\\activitytable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welltabs.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welltabs.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7DC8DE4-4CBD-4CF1-BF85-659016A0E4E3}|WellmanReactCore.Server\\WellmanReactCore.Server.csproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.server\\controllers\\wellcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycardheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\activitycardheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welldashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welldashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welldetailscard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -151,10 +163,6 @@
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\iconbutton.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\activitycard\\header\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\activitycard\\header\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\boxactivitycard\\boxactivitycard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\boxactivitycard\\boxactivitycard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -202,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 22,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,93 +218,54 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DailyActivity.module.css",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.module.css",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.module.css",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.module.css",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.module.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-27T13:56:26.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ActivityService.cs",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Services\\ActivityService.cs",
-              "RelativeDocumentMoniker": "WellmanReactCore.Server\\Services\\ActivityService.cs",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Services\\ActivityService.cs",
-              "RelativeToolTip": "WellmanReactCore.Server\\Services\\ActivityService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:22:48.069Z",
+              "Title": "Header.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\Header.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\Header.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\Header.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\Header.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T13:54:51.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyActivity.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\DailyActivity.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T13:54:41.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IActivityService.cs",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Contract\\IActivityService.cs",
-              "RelativeDocumentMoniker": "WellmanReactCore.Server\\Contract\\IActivityService.cs",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Contract\\IActivityService.cs",
-              "RelativeToolTip": "WellmanReactCore.Server\\Contract\\IActivityService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T13:22:30.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "WellTabs.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellTabs.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellTabs.tsx",
@@ -309,20 +278,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ActivityController.cs",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Controllers\\ActivityController.cs",
-              "RelativeDocumentMoniker": "WellmanReactCore.Server\\Controllers\\ActivityController.cs",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Controllers\\ActivityController.cs",
-              "RelativeToolTip": "WellmanReactCore.Server\\Controllers\\ActivityController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAuwEMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T01:40:01.709Z",
+              "DocumentIndex": 0,
+              "Title": "ActivityDetailsDrawer.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
+              "ViewState": "AQIAACMAAAAAAAAAAAAcwD0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-24T01:52:52.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "WellDashboard.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDashboard.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDashboard.module.css",
@@ -330,11 +299,12 @@
               "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\WellDashboard.module.css",
               "ViewState": "AQIAAFgBAAAAAAAAAAAqwG0BAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-27T00:52:29.396Z"
+              "WhenOpened": "2024-08-27T00:52:29.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ActivityTable.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityTable\\ActivityTable.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityTable\\ActivityTable.tsx",
@@ -347,20 +317,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ActivityDetailsDrawer.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\ActivityDetailsDrawer.tsx",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBcAAAAZAAAA",
+              "DocumentIndex": 7,
+              "Title": "Header.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-24T01:52:52.467Z",
+              "WhenOpened": "2024-08-24T02:02:49.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "ActivityCardHeader.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-24T02:01:46.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IActivityService.cs",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Contract\\IActivityService.cs",
+              "RelativeDocumentMoniker": "WellmanReactCore.Server\\Contract\\IActivityService.cs",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Contract\\IActivityService.cs",
+              "RelativeToolTip": "WellmanReactCore.Server\\Contract\\IActivityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:22:30.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActivityService.cs",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Services\\ActivityService.cs",
+              "RelativeDocumentMoniker": "WellmanReactCore.Server\\Services\\ActivityService.cs",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Services\\ActivityService.cs",
+              "RelativeToolTip": "WellmanReactCore.Server\\Services\\ActivityService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:22:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WellDetail.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
@@ -372,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "GenericTable.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
@@ -385,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "WellDashboard.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDashboard.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDashboard.tsx",
@@ -397,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "well-utils.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\utils\\well\\well-utils.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\utils\\well\\well-utils.tsx",
@@ -409,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "WellController.cs",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Controllers\\WellController.cs",
               "RelativeDocumentMoniker": "WellmanReactCore.Server\\Controllers\\WellController.cs",
@@ -422,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "styleDetail.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\styleDetail.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\styleDetail.css",
@@ -434,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ActivitiesBadge.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\ActivitiesBadge.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\ActivitiesBadge.tsx",
@@ -446,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "WellFilter.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellFilter.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellFilter.tsx",
@@ -458,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Index.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
@@ -470,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "GenericTable.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\GenericTable.module.css",
@@ -482,19 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ActivityCardHeader.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCardHeader.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-24T02:01:46.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "MainContainer.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\MainContainer.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\MainContainer.tsx",
@@ -506,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "WellDetailsCard.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetailsCard.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDetailsCard.tsx",
@@ -518,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ActivityCard.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCard.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\ActivityCard.module.css",
@@ -530,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\App.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\App.tsx",
@@ -542,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "NotificationCard.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\NotificationCard.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\NotificationCard.tsx",
@@ -554,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "WellFilter.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellFilter.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellFilter.module.css",
@@ -566,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "CreateButtonWithMenu.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.module.css",
@@ -578,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "CreateButtonWithMenu.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.module.css",
@@ -590,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "CreateActivity.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
@@ -602,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Button.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Button.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Button.tsx",
@@ -614,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "CreateWell.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
@@ -626,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "PrimaryButton.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\PrimaryButton.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\PrimaryButton.tsx",
@@ -638,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Dropdown.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Dropdown.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Dropdown.tsx",
@@ -650,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Button.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Button.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Button.module.css",
@@ -662,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Button.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Button.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Button.module.css",
@@ -674,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "Header.module.css",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.module.css",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.module.css",
@@ -686,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "CreateButtonWithMenu.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\CreateButtonWithMenu.tsx",
@@ -698,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "NavSidebar.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\NavSidebar\\NavSidebar.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\NavSidebar\\NavSidebar.tsx",
@@ -710,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "IconButton.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\IconButton.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\IconButton.tsx",
@@ -722,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ActivityCard.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\ActivityCard.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\ActivityCard.tsx",
@@ -734,19 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Header.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCard\\Header\\Header.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-24T02:02:49.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "GeneralSection.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\GeneralSection.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\GeneralSection.tsx",
@@ -758,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "SidebarMenu.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\SidebarMenu.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\ActivityCardSideGeneral\\SidebarMenu.tsx",
@@ -770,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "BoxActivitySideGeneral.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\BoxActivitySideGeneral\\BoxActivitySideGeneral.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\BoxActivitySideGeneral\\BoxActivitySideGeneral.tsx",
@@ -782,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "BoxActivityCard.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\BoxActivityCard\\BoxActivityCard.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\BoxActivityCard\\BoxActivityCard.tsx",
@@ -794,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "WellService.cs",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Services\\WellService.cs",
               "RelativeDocumentMoniker": "WellmanReactCore.Server\\Services\\WellService.cs",
@@ -806,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "IWellService.cs",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\WellmanReactCore.Server\\Contract\\IWellService.cs",
               "RelativeDocumentMoniker": "WellmanReactCore.Server\\Contract\\IWellService.cs",
@@ -818,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "MainTitle.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\system\\MainTitle.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\system\\MainTitle.tsx",
@@ -830,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "SuccessModal.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\SuccessModal.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\SuccessModal.tsx",
@@ -842,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "ErrorModal.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\ErrorModal.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\ErrorModal.tsx",
