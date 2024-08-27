@@ -9,9 +9,8 @@ interface ActivitiesBadgeProps {
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
-        right: -12, // Ajuste para alinear mejor con el texto
-        top: 1, // Ajuste para alinear verticalmente
-        //border: `2px solid ${theme.palette.background.paper}`,
+        right: -12,
+        top: 1, 
         padding: '0 4px',
         backgroundColor: '#ffeaea',
         color: '#000',

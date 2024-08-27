@@ -2,7 +2,7 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import ActivitiesBadge from './ActivitiesBadge'; // Asegúrate de ajustar la ruta según tu proyecto
+import ActivitiesBadge from './ActivitiesBadge';
 import ActivityTable from '../../components/Activity/ActivityTable/ActivityTable';
 
 interface TabPanelProps {
@@ -34,6 +34,7 @@ function a11yProps(index: number) {
     };
 }
 const columns = [
+    { id: "activityId", label: "Id", minWidth: 170 },
     { id: "activityName", label: "Activity Name", minWidth: 170 },
     { id: "status", label: "Status", minWidth: 100 },
     { id: "jobType", label: "Job Type", minWidth: 170 },
@@ -46,6 +47,7 @@ const columns = [
 
 const data = [
     {
+        activityId: '1',
         activityName: "Drilling (3D)",
         status: "Active",
         jobType: "N/A",
@@ -56,6 +58,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '2',
         activityName: "Workover",
         status: "Active",
         jobType: "WorkOver Completion",
@@ -66,6 +69,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '3',
         activityName: "Completion (2D)",
         status: "Active",
         jobType: "Initial Frac",
@@ -76,6 +80,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '4',
         activityName: "Construction-1",
         status: "Completed",
         jobType: "None",
@@ -86,6 +91,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '5',
         activityName: "Initial Drilling",
         status: "Completed",
         jobType: "N/A",
@@ -96,6 +102,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '6',
         activityName: "Drilling 2",
         status: "Completed",
         jobType: "None",
@@ -106,6 +113,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '7',
         activityName: "Workover 1",
         status: "Completed",
         jobType: "None",
@@ -116,6 +124,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '8',
         activityName: "Reclamation",
         status: "Completed",
         jobType: "None",
@@ -126,6 +135,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '9',
         activityName: "Cleanup",
         status: "Completed",
         jobType: "None",
@@ -136,6 +146,7 @@ const data = [
         calendar: "calendar-icon"
     },
     {
+        activityId: '10',
         activityName: "Construction",
         status: "Completed",
         jobType: "None",
@@ -162,37 +173,37 @@ export default function WellTabs() {
                     value={value}
                     onChange={handleChange}
                     aria-label="basic tabs example"
-                    variant="scrollable"  // Permite desplazamiento si hay muchas tabs
-                    scrollButtons="auto"  // Muestra los botones de desplazamiento
+                    variant="scrollable"
+                    scrollButtons="auto" 
                     TabIndicatorProps={{
-                        sx: { backgroundColor: '#0056b3', height: '3px' } // Color y grosor del indicador
+                        sx: { backgroundColor: '#0056b3', height: '3px' }
                     }}
                     sx={{
                         '& .MuiTab-root': {
-                            minWidth: '150px', // Ancho mínimo para cada tab
-                            textTransform: 'none', // Mantener el texto como está
+                            minWidth: '150px',
+                            textTransform: 'none',
                             fontWeight: 600,
                             fontSize: '14px',
                             color: 'text.primary',
                             '&.Mui-selected': {
-                                color: '#0056b3', // Color de la pestaña seleccionada
+                                color: '#0056b3',
                             },
                         },
                     }}
                 >
                     <Tab label={<ActivitiesBadge text="Activities" number={10} />} {...a11yProps(0)} />
-                    <Tab label={<ActivitiesBadge text="AFEs" number={21} />} {...a11yProps(1)} />
-                    <Tab label={<ActivitiesBadge text="Wellbore" number={24} />} {...a11yProps(2)} />
+                    <Tab label={<ActivitiesBadge text="AFEs" number={0} />} {...a11yProps(1)} />
+                    <Tab label={<ActivitiesBadge text="Wellbore" number={0} />} {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
                 <ActivityTable columns={columns} data={data}></ActivityTable>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
-                Item Two
+                No AFEs Found
             </CustomTabPanel>
             <CustomTabPanel value={value} index={2}>
-                Item Three
+                No Wellbores Found
             </CustomTabPanel>
         </Box>
     );

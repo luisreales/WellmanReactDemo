@@ -1,75 +1,84 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Net;
-using WellmanReactCore.Server.Models;
-using WellmanReactCore.Server.ViewModel;
+﻿using System.Net;
+using Microsoft.AspNetCore.Mvc;
+using WellmanReactCore.Server.Domain;
+using WellmanReactCore.Server.Services;
 
 namespace WellmanReactCore.Server.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class ActivityController : Controller
+    [Route("[controller]")]
+    public class ActivityController : ControllerBase
     {
-        private readonly WellmanContext _context;
+        private readonly IActivityService _activityService;
 
-        public ActivityController(WellmanContext context)
+        public ActivityController(IActivityService activityService)
         {
-            _context = context;
+            _activityService = activityService;
         }
 
-        // Endpoint to create a new Activity
-        [HttpPost("createActivity")]
-        public async Task<IActionResult> CreateActivity([FromBody] CreateActivityViewModel model)
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateActivityDto dto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                var activityId = await _activityService.CreateActivityAsync(dto);
+                return Ok(new { ActivityId = activityId });
             }
-
-            // Create the Activity entity
-            var activity = new Activity
+            catch
             {
-                WellId = model.WellId,
-                ActivityType = model.ActivityType,
-                DrillingActivityCodeSet = model.DrillingActivityCodeSet,
-                ActivityName = model.ActivityName,
-                IsManagedPressureDrilling = model.IsManagedPressureDrilling,
-                WellboreId = model.WellboreId
-            };
-
-            _context.Activities.Add(activity);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { activity.ActivityId });
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
         }
 
-        // Endpoint to get a list of Activities for a specific Well
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            try
+            {
+                var result = await _activityService.GetActivitiesAsync();
+                return Ok(result);
+            }
+            catch
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
+        }
+
         [HttpGet("getListActivity/{wellId}")]
         public async Task<IActionResult> GetListActivity(int wellId)
         {
-            var activities = await _context.Activities
-                                            .Where(a => a.WellId == wellId)
-                                            .ToListAsync();
-
-            if (activities == null || !activities.Any())
+            try
             {
-                return NotFound("No activities found for the specified Well.");
-            }
+                var activities = await _activityService.GetActivitiesByWellIdAsync(wellId);
+                if (activities == null || !activities.Any())
+                {
+                    return NotFound("No activities found for the specified Well.");
+                }
 
-            return Ok(activities);
+                return Ok(activities);
+            }
+            catch
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
         }
 
-        [HttpGet("getAllActivities")]
-        public async Task<IActionResult> GetAllActivities()
+        [HttpGet("{activityId}")]
+        public async Task<IActionResult> GetActivityById(int activityId)
         {
-            var activities = await _context.Activities.ToListAsync();
-
-            if (activities == null || !activities.Any())
+            try
             {
-                return NotFound("No activities found.");
+                var activity = await _activityService.GetActivityByIdAsync(activityId);
+                if (activity == null)
+                {
+                    return NotFound($"Activity with ID {activityId} not found.");
+                }
+                return Ok(activity);
             }
-
-            return Ok(activities);
+            catch
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError);
+            }
         }
     }
 }

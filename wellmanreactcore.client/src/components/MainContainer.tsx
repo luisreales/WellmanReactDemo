@@ -14,8 +14,8 @@ const MainContainer: React.FC = () => {
                 marginRight: '0px !important',
               }}>
                 <Routes>
-                    <Route path="/" element={<Navigate to="/wells" replace />} />
-                    <Route path="/wells" element={<AllWellsTable />} />
+                    <Route path="/" element={<Navigate to="/Wells" replace />} />
+                    <Route path="/Wells" element={<AllWellsTable />} />
                     <Route path="/WellDetail/:wellId" element={<WellDetail />} />
                 </Routes>
             </Container>

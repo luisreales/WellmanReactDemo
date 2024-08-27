@@ -19,16 +19,16 @@ interface MenuItemType {
 }
 
 const menuItems: MenuItemType[] = [
-  { label: "Create", icon: Create, to: "/create" },
-  { label: "Dashboard", icon: Dashboard, to: "/dashboard" },
-  { label: "Activities", icon: Activities, to: "/activities" },
-  { label: "Wells", icon: Wells, to: "/wells" },
-  { label: "AFEs", icon: AFEs, to: "/afes" },
-  { label: "Pads", icon: Pads, to: "/pads" },
-  { label: "Facilities", icon: Facilities, to: "/facilities" },
-  { label: "Pipelines", icon: Pipelines, to: "/pipelines" },
-  { label: "Reports", icon: Reports, to: "/reports" },
-  { label: "Admin", icon: Admin, to: "/admin" }
+  { label: "Create", icon: Create, to: "/Create" },
+  { label: "Dashboard", icon: Dashboard, to: "/Dashboard" },
+  { label: "Activities", icon: Activities, to: "/Activities" },
+  { label: "Wells", icon: Wells, to: "/Wells" },
+  { label: "AFEs", icon: AFEs, to: "/Afes" },
+  { label: "Pads", icon: Pads, to: "/Pads" },
+  { label: "Facilities", icon: Facilities, to: "/Facilities" },
+  { label: "Pipelines", icon: Pipelines, to: "/Pipelines" },
+  { label: "Reports", icon: Reports, to: "/Reports" },
+  { label: "Admin", icon: Admin, to: "/Admin" }
 ];
 
 const NavSidebar: React.FC = () => {

@@ -62,7 +62,7 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
 
     return (
         <>
-            <Paper sx={{ width: '100%', mb: 3 }}>
+            <div>
                 <MuiToolbar sx={{ justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
                         <WellIcon sx={{ marginRight: '8px' }} />
@@ -80,19 +80,25 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
                     </Box>
                 </MuiToolbar>
                 <WellFilter />
-                <SearchComponent />
-                <TableContainer>
+                {/* <SearchComponent /> */}
+                <TableContainer component={Paper} sx={{
+                    marginTop: '15px',
+                    border: '1px solid #ccc',
+                    borderRadius: '10px',
+                    overflow: 'hidden',
+                    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)'
+                }}>
                     <Table stickyHeader aria-label="generic table">
-                        <TableHead>
-                            <TableRow>
-                                <TableCell padding="checkbox">
+                        <TableHead sx={{ backgroundColor: '#f5f8fD!important' }}>
+                            <TableRow sx={{ backgroundColor: '#f5f8fD!important' }}>
+                                <TableCell padding="checkbox" sx={{ backgroundColor: '#f5f8fD!important' }}>
                                     <Checkbox color="primary" />
                                 </TableCell>
                                 {columns.filter(column => column.id !== "wellId").map((column) => (
                                     <TableCell
                                         key={column.id}
                                         align={column.align}
-                                        style={{ minWidth: column.minWidth }}
+                                        style={{ minWidth: column.minWidth }} sx={{ backgroundColor: '#f5f8fD!important' }}
                                     >
                                         {column.label}
                                     </TableCell>
@@ -101,7 +107,7 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
                         </TableHead>
                         <TableBody>
                             {data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row, index) => (
-                                <TableRow hover role="checkbox" tabIndex={-1} key={index}>
+                                <TableRow hover role="checkbox" tabIndex={-1} key={index} sx={{ backgroundColor: '#fff!important' }}>
                                     <TableCell padding="checkbox">
                                         <Checkbox color="primary" />
                                     </TableCell>
@@ -130,8 +136,8 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
                     onPageChange={handleChangePage}
                     onRowsPerPageChange={handleChangeRowsPerPage}
                 />
-            </Paper>
-            <WellDetailsDrawer wellId={selectedWellId} open={drawerOpen} onClose={handleCloseDrawer} />
+            </div>
+            
         </>
     );
 };

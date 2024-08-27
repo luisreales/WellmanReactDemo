@@ -4,31 +4,18 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListSubheader from '@mui/material/ListSubheader';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import PeopleIcon from '@mui/icons-material/People';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 
 export const mainListItems = (
     <React.Fragment>
-        <ListItemButton component={Link} to="/well">
+        <ListItemButton component={Link} to="/Well">
             <ListItemIcon>
                 <BarChartIcon />
             </ListItemIcon>
             <ListItemText primary="Well" />
         </ListItemButton>
-        <ListItemButton component={Link} to="/orders">
-            <ListItemIcon>
-                <ShoppingCartIcon />
-            </ListItemIcon>
-            <ListItemText primary="Orders" />
-        </ListItemButton>
-        <ListItemButton component={Link} to="/deposits">
-            <ListItemIcon>
-                <PeopleIcon />
-            </ListItemIcon>
-            <ListItemText primary="Deposits" />
-        </ListItemButton>
+        
     </React.Fragment>
 );
 

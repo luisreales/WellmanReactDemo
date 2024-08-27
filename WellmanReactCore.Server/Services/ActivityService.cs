@@ -33,5 +33,18 @@ namespace WellmanReactCore.Server.Services
         {
             return await _wellmanContext.Activities.ToListAsync();
         }
+
+        public async Task<IEnumerable<Activity>> GetActivitiesByWellIdAsync(int wellId)
+        {
+            return await _wellmanContext.Activities
+                                 .Where(a => a.WellId == wellId)
+                                 .ToListAsync();
+        }
+
+        public async Task<Activity> GetActivityByIdAsync(int activityId)
+        {
+            return await _wellmanContext.Activities
+                                 .FirstOrDefaultAsync(a => a.ActivityId == activityId);
+        }
     }
 }

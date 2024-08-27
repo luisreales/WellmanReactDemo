@@ -80,7 +80,7 @@ const AllWellsTable: React.FC = () => {
   };
 
   return (
-    <>
+    <div style={{paddingRight: '20px', paddingLeft: '20px'}}>
       <GenericTable
         title="All Wells"
         columns={columns}
@@ -113,7 +113,7 @@ const AllWellsTable: React.FC = () => {
           <CircularProgress />
         </div>
       )}
-    </>
+    </div>
   );
 };
 

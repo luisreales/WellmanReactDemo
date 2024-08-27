@@ -128,7 +128,7 @@
   .statusWrapper {
     align-self: start;
     display: flex;
-    margin-top: 7px;
+    margin-top: 0px;
     gap: 6px;
   }
   

@@ -1,6 +1,7 @@
 
 import React from "react";
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+
 import {
     Box, Toolbar as MuiToolbar
 } from '@mui/material';
@@ -30,12 +31,16 @@ export interface WellData {
 
 const WellDetail: React.FC = () => {
   const { wellId } = useParams<{ wellId: string }>();
+  const navigate = useNavigate();
+  const handleBackButtonClick = () => {
+    navigate('/Wells'); 
+  };
 
     return (
         <div style={{ paddingLeft: '20px', paddingRight: '20px' }}>
          <MuiToolbar sx={{ justifyContent: 'space-between', alignItems: 'center', padding: '0 16px' }}>
              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                 <BackButton aria-label="back">
+                 <BackButton aria-label="back" onClick={handleBackButtonClick}>
                      <ArrowBackIcon />
                  </BackButton>
                  <MainTitle text='WELL - RES DEMO HZ 05-26-032' />
