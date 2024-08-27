@@ -1,10 +1,7 @@
 import { Route, Routes, Navigate } from 'react-router-dom';
 import AllWellsTable from '../pages/Well/Index';
-import Deposits from '../pages/Deposits';
-import Orders from '../pages/Orders';
 import { Container } from '@mui/material';
-import WellDetailsDrawer from '../pages/Well/WellDetailsDrawer'
-import WellDetail from '../pages/Well/WellDetail'
+import WellDetail from '../pages/Well/WellDetail';
 
 
 const MainContainer: React.FC = () => {
@@ -19,11 +16,7 @@ const MainContainer: React.FC = () => {
                 <Routes>
                     <Route path="/" element={<Navigate to="/wells" replace />} />
                     <Route path="/wells" element={<AllWellsTable />} />
-                    <Route path="/deposits" element={<Deposits />} />
-                   <Route path="/orders" element={<Orders />} />
-                <Route path="/wellDetailsDrawer" element={<WellDetailsDrawer />} />
-                <Route path="/wellDetail" element={<WellDetail />} />
-  
+                    <Route path="/WellDetail/:wellId" element={<WellDetail />} />
                 </Routes>
             </Container>
     );

@@ -9,6 +9,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="src\components\Activity\ActivityTable\" />
     <Folder Include="src\Pages\" />
   </ItemGroup>
 </Project>

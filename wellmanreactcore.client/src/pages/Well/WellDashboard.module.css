@@ -1,0 +1,395 @@
+.container {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.contentWrapper {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    .contentWrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0;
+}
+
+@media (max-width: 991px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.notificationsWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #222;
+}
+
+@media (max-width: 991px) {
+    .notificationsWrapper {
+        max-width: 100%;
+        margin-top: 29px;
+    }
+}
+
+.cardGrid {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.cardNotification {
+    justify-content: center;
+    border-radius: 9px;
+    border: 1px solid #d6deea;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(227, 227, 227, 0.3);
+    display: flex;
+    min-height: 95px;
+    flex-direction: column;
+    gap: 18px;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+    padding: 14px 25px;
+}
+
+@media (max-width: 991px) {
+    .cardNotification {
+        padding: 0 20px;
+    }
+}
+
+.cardHeader {
+    align-self: start;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    justify-content: start;
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContent {
+    display: flex;
+    margin-top: 18px;
+    width: 100%;
+    align-items: end;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 30px;
+    justify-content: start;
+}
+
+@media (max-width: 991px) {
+    .cardContent {
+        white-space: initial;
+    }
+}
+
+.cardValue {
+    display: flex;
+    min-width: 240px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    flex-basis: 0;
+}
+
+@media (max-width: 991px) {
+    .cardValue {
+        white-space: initial;
+    }
+}
+
+.cardValueText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .cardValueText {
+        white-space: initial;
+    }
+}
+
+.highlightedText {
+    border-radius: 8px;
+    padding: 2px 0;
+}
+
+.wellDetailsCard {
+    border-radius: 10px;
+    border: 1px solid #d6deea;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(227, 227, 227, 0.3);
+    display: flex;
+    width: 100%;
+    gap: 40px 100px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 12px 1px 25px 22px;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsCard {
+        max-width: 100%;
+        margin-top: 29px;
+        padding-left: 20px;
+    }
+}
+
+.wellDetailsContent {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.wellDetailsColumns {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsColumns {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+
+.wellDetailsMainColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 69%;
+    margin-left: 0;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsMainColumn {
+        width: 100%;
+    }
+}
+
+.wellDetailsInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    color: #333;
+    font: 400 12px Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsInfo {
+        margin-top: 31px;
+    }
+}
+
+.wellDetailsTitle {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.surfaceUwi {
+    margin-top: 11px;
+    font: 13px/2 Roboto, sans-serif;
+}
+
+.uwiValue {
+    color: #555;
+    line-height: 2;
+    margin-top: 8px;
+}
+
+.hierarchyLabel {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.hierarchyValue {
+    color: #555;
+    line-height: 16px;
+    align-self: stretch;
+    margin-top: 10px;
+}
+
+.targetFormationLabel {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 19px;
+}
+
+.targetFormationValue {
+    color: #555;
+    line-height: 2;
+    margin-top: 7px;
+}
+
+.wellDetailsSecondaryColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 31%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsSecondaryColumn {
+        width: 100%;
+    }
+}
+
+.secondaryInfo {
+    display: flex;
+    margin-top: 31px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+    color: #333;
+    font: 600 11px/2 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .secondaryInfo {
+        margin-top: 40px;
+    }
+}
+
+.infoValue {
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 8px;
+}
+
+.wellIdentifierLabel {
+    align-self: stretch;
+    margin-top: 34px;
+}
+
+.wellIdentifierValue {
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 9px;
+}
+
+.nameAliasLabel {
+    margin-top: 27px;
+}
+
+.nameAliasValue {
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 12px;
+}
+
+.divider {
+    border-radius: 100px;
+    background-color: #6c728f;
+    display: flex;
+    width: 7px;
+    height: 110px;
+    margin: auto 0;
+}
+
+.wellDetailsCard {
+    border-radius: 10px;
+    /*border: 1px solid #d6deea;*/
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(227, 227, 227, 0.3);
+    display: flex;
+    width: 100%;
+    padding: 15px 2px;
+}
+
+.wellDetailsContent {
+    width: 100%;
+}
+
+.wellDetailsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wellDetailsTitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+/*    padding: 10px;*/
+    background-color: #fff;
+    border-bottom: 1px solid #d6deea;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    padding: 20px 20px;
+    text-align: left;
+    border-top: 1px solid #d6deea;
+    background-color: #fff;
+}
+
+.value {
+    font-size: 12px;
+    font-weight: 400;
+    color: #555;
+    padding: 10px;
+    text-align: left;
+    border-left: 1px solid #d6deea;
+    border-top: 1px solid #d6deea;
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .wellDetailsCard {
+        padding: 10px;
+    }
+
+    .label, .value {
+        font-size: 11px;
+        padding: 8px;
+    }
+}
+

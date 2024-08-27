@@ -3,6 +3,7 @@ import {
     Paper, Table, TableContainer, TableHead, TableRow, TableCell, TableBody, Checkbox,
     Box, Toolbar as MuiToolbar, TablePagination,
 } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import CreateButtonWithMenu from './form/CreateButtonWithMenu';
 import MainTitle from './system/MainTitle';
 import SearchComponent from './system/SearchComponent';
@@ -37,6 +38,7 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
     const [page, setPage] = useState(0);
     const [drawerOpen, setDrawerOpen] = useState(false);
     const [selectedWellId, setSelectedWellId] = useState<string | null>(null);
+    const navigate = useNavigate();
 
     const handleChangePage = (event: unknown, newPage: number) => {
         setPage(newPage);
@@ -49,7 +51,8 @@ const GenericTable: React.FC<GenericTableProps> = ({ title, columns, data, icon,
 
     const handleWellNameClick = (wellId: string) => {
         setSelectedWellId(wellId);
-        setDrawerOpen(true);
+        //setDrawerOpen(true);
+        navigate(`/WellDetail/${wellId}`);
     };
 
     const handleCloseDrawer = () => {

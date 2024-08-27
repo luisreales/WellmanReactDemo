@@ -1707,3 +1707,17 @@
         top: -2029px;
         width: 32px;
     }
+
+
+.statusContainer {
+    align-self: start;
+    display: flex;
+    gap: 13px;
+}
+
+
+.statusLabel {
+    color: #333;
+    margin: auto 0;
+    font: 600 12px/1 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+}
