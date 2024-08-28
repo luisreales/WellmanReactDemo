@@ -110,7 +110,7 @@
   .lockSwitch {
     border-bottom: 1px solid #d6deea;
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
     padding: 8px 23px;
@@ -122,7 +122,7 @@
   }
   
   .switchTrack {
-    width: 52px;
+    width: 49px;
     height: 26px;
     background-color: #d6deea;
     border-radius: 13px;
