@@ -4,7 +4,7 @@
   
   .contentWrapper {
     display: flex;
-    gap: 20px;
+    gap: 0px;
   }
   
   .sidebar {
@@ -13,6 +13,7 @@
   
   .mainContent {
     width: 84%;
+    background-color:white;
   }
   
   .sectionHeader {
@@ -26,14 +27,16 @@
     color: #333;
     font: 700 13px/30px Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
     letter-spacing: -0.13px;
+
   }
   
   .activityCards {
     display: flex;
     flex-wrap: wrap;
     gap: 9px;
-    margin-top: 16px;
+    margin-top: 0px;
     padding: 0 30px;
+    background-color: white;
   }
   
   .schematicsButton {
@@ -67,6 +70,7 @@
   
     .sectionHeader {
       padding: 0 20px;
+            
     }
   
     .activityCards {

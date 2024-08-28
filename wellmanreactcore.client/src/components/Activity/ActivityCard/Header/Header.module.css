@@ -11,7 +11,7 @@
   }
   
   .divider {
-    width: 1px;
+    width: 0px;
     height: 40px;
     border: 1px solid #e8e8e8;
   }

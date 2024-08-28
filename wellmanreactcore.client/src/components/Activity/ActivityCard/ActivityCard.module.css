@@ -47,6 +47,7 @@
   .textContainer {
     display: flex;
     flex-direction: column;
+    margin-top:-10px;
   }
   
   .activityTitle {
@@ -76,6 +77,7 @@
     align-items: center;
     gap: 3px;
     justify-content: center;
+    margin-top: -17px;
   }
   
   .wellText {
@@ -99,6 +101,7 @@
   .wellNameText {
     align-self: stretch;
     gap: 8px;
+
   }
   
   .statusContainer {
@@ -114,7 +117,7 @@
   }
   
   .divider {
-    width: 1px;
+    width: 0.2px;
     height: 40px;
     border: 1px solid #e8e8e8;
   }
@@ -128,7 +131,7 @@
   .statusWrapper {
     align-self: start;
     display: flex;
-    margin-top: 0px;
+    margin-top: 8px;
     gap: 6px;
   }
   
@@ -169,6 +172,7 @@
     letter-spacing: -0.5px;
     text-align: center;
     margin: auto 0;
+    margin-right: 5px;
     font: 400 13px/1 Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
   }
   

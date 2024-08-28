@@ -3,11 +3,13 @@
     background-color: #eef8ff;
     min-width: 240px;
     min-height: 97px;
-    width: 345px;
+    width: 10%;
     padding: 8px 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
+    margin-right:20px;
   }
   
   .negative {

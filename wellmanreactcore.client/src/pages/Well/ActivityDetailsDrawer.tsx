@@ -9,9 +9,45 @@ interface ActivityDetailsDrawerProps {
     activityId: string | null;
     open: boolean;
     onClose: () => void;
+    activityData: GeneralSectionProps;
 }
 
-const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityId, open, onClose }) => {
+interface GeneralSectionProps {
+    estimated?: string;
+    actual?: string;
+    AFEestimated?: string;
+    activityCost?: string;
+    lastApprovedDate: string;
+    lastSubmitDate: string;
+    daysToBeApproved: number;
+    daysToBeReleased: number;
+    daysRejected: number;
+    daysRefused: number;
+    daysToSubmit: number;
+    operator: string;
+    license: string;
+    surface: string;
+    estimatedTD: string;
+    currentDepth: string;
+    rigName: string;
+    afeNumber: string;
+    costPerMeter: string;
+    fieldManager: string;
+    daysDetails: {
+        dayNumber: number;
+        date: string;
+        lastEdited: string;
+        reviewStatus: string;
+    }[];
+    wellboresData: {
+        name: string;
+        status: string;
+        trajectory: string;
+        parent: string;
+    }[];
+}
+
+const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityId, open, onClose, activityData }) => {
     const [wellDetails, setWellDetails] = useState<any>(null);
     const [loading, setLoading] = useState(false);
     const [toggleDailyActivity, setToggleDailyActivity] = useState(false);
@@ -25,6 +61,7 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
     };
 
     useEffect(() => {
+
         if (activityId) {
             setLoading(false);
             axiosInstance.get(`/Activity/${activityId}`)
@@ -40,8 +77,8 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
     }, [activityId]);
 
     return (
-        <Drawer anchor="right" open={open} onClose={onClose}>
-            <Box sx={{ width: '97%', p: 2 }}>
+        <Drawer open={open} onClose={onClose} sx={{ width: '100%', height: '100%', '& .MuiDrawer-paper': { width: '100%', height: '100%' } }}>
+            <Box sx={{ width: '96%', height: '100%', p: 2 }}>
                 {/*{loading ? (*/}
                 {/*    <CircularProgress />*/}
                 {/*) : wellDetails ? (*/}
@@ -58,7 +95,7 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
                 
                 {   <div>
                     <ActivityCardHeader onClose={onClose} onClick={handleButtonClick}  />
-                        <BoxActivitySideGeneral />
+                    <BoxActivitySideGeneral activityData={activityData} />
                     <Drawer anchor="right" open={toggleDailyActivity} onClose={handleClose}>
                         <DailyActivity onClose={handleClose} />
                         </Drawer>

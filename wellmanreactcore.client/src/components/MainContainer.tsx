@@ -16,7 +16,7 @@ const MainContainer: React.FC = () => {
                 <Routes>
                     <Route path="/" element={<Navigate to="/Wells" replace />} />
                     <Route path="/Wells" element={<AllWellsTable />} />
-                    <Route path="/WellDetail/:wellId" element={<WellDetail />} />
+                <Route path="/WellDetail/:wellId" element={<WellDetail />} />
                 </Routes>
             </Container>
     );

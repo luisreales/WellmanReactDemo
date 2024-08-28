@@ -5,12 +5,19 @@
     box-shadow: 0px 2px 5px 0px rgba(227, 227, 227, 0.3);
     margin-top: 16px;
     padding: 8px 21px 25px;
-  }
-  
-  .statusHeader {
-    border-bottom: 1px solid #d6deea;
+    margin-left: 30px;
+    margin-right: 30px;
+    width:840px;
+}
+
+.statusHeader {
+    border-bottom: 1px solid black;
     padding-bottom: 8px;
-  }
+    font-family: 'BeVietnamPro', sans-serif;
+    font-size: 12px;
+    
+      
+}
   
   .statusTitle {
     font-size: 13px;
@@ -23,13 +30,56 @@
     justify-content: space-between;
     margin-top: 18px;
   }
-  
-  .statusDates,
-  .statusDetails {
+
+.statusContentSecond {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom:-30px;
+}
+
+
+.statusDates,
+.statusDetails {
     font-size: 12px;
     color: #555;
-  }
-  
+    margin-right: 100px;
+    border-left: 1px solid #ccc; /* Adds a vertical line on the left side */
+    padding-left: 60px;
+}
+
+.statusDates,
+.statusDetailsDate {
+    font-size: 12px;
+    color: #555;
+}
+
+
+.statusDates,
+.statusDetailsFirst {
+    font-size: 12px;
+    color: #555;
+   
+
+}
+.statusDates,
+.statusDetailsSecond {
+    font-size: 12px;
+    color: #555;
+    padding-left:60px;
+    border-left: 1px solid #ccc;
+}
+
+.statusDates,
+.statusDetailsThird {
+    font-size: 12px;
+    color: #555;
+    margin-left: 15px;
+    padding-left: 60px;
+    border-left: 1px solid #ccc;
+}
+
+
   .dateInfo {
     margin-bottom: 15px;
   }
@@ -43,12 +93,59 @@
   .detailItem {
     margin-bottom: 10px;
   }
-  
-  .statusTable {
+
+.statusTable {
     width: 100%;
     border-collapse: collapse;
     margin-top: 18px;
-  }
+
+
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.tabButton {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent; /* Keep background transparent */
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid transparent; /* Default state with no underline */
+}
+
+.tabContent {
+   margin-top:-55px;
+       
+}
+
+.tabButton:hover {
+  background-color: transparent; /* Keep background transparent on hover */
+}
+
+.tabButton.active {
+  border-bottom: 1px solid black; /* Highlight the selected tab with a line */
+}
+
+.tabContent {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.detailItem {
+  margin-bottom: 15px;
+}
   
   .statusTable th,
   .statusTable td {
@@ -66,9 +163,11 @@
   @media (max-width: 991px) {
     .submissionStatus {
       padding-left: 20px;
+      
     }
   
     .statusContent {
       flex-direction: column;
     }
+
   }
