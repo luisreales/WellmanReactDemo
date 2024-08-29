@@ -43,11 +43,12 @@ const SubMenu: React.FC<SubMenuProps> = ({ options }) => {
                 anchor="right"
                 open={drawerOpen}
                 onClose={toggleDrawer(false)}
+
                 sx={{
                     '& .MuiDrawer-paper': {
-                        width: '1100px',
+                        width: '80%',
                         padding: '20px',
-                        height: '800px'
+                        height: '90%'
                     },
                 }}
             >

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './FormActivity.module.css';
-
+import DailyCosts from '../DailyCost/DailyCosts'
 interface NavBarProps {
   title: string;
   activity: string;
@@ -10,7 +10,10 @@ interface NavBarProps {
 }
 
 const FormActivityNavBar: React.FC<NavBarProps> = ({ title, activity, well, isCompleted, toggleDrawer }) => {
-  return (
+    console.log('title navbar');
+    console.log(title);
+    return (
+      <div>
     <header className={styles.navBar}>
       <div className={styles.navBarContent}>
         <div className={styles.navBarInfo}>
@@ -58,11 +61,19 @@ const FormActivityNavBar: React.FC<NavBarProps> = ({ title, activity, well, isCo
               alt=""
               className={styles.moreActionsIcon}
             />
-          </button>
-        </div>
+                  </button>
+        
+              </div>
+            
       </div>
       <div className={styles.navBarHighlight} />
-    </header>
+      </header>
+     <div>
+       
+                {title==='Daily Costs'? <DailyCosts/>: <></>}
+       
+            </div>
+     </div>
   );
 };
 
