@@ -6,14 +6,15 @@ interface NavBarProps {
   activity: string;
   well: string;
   isCompleted: boolean;
+  toggleDrawer: (open: boolean) => void;
 }
 
-const FormActivityNavBar: React.FC<NavBarProps> = ({ title, activity, well, isCompleted }) => {
+const FormActivityNavBar: React.FC<NavBarProps> = ({ title, activity, well, isCompleted, toggleDrawer }) => {
   return (
     <header className={styles.navBar}>
       <div className={styles.navBarContent}>
         <div className={styles.navBarInfo}>
-          <button className={styles.backButton} aria-label="Go back">
+                  <button className={styles.backButton} aria-label="Go back" onClick={() => toggleDrawer(false)}>
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/259d6732131efb6169fec70de2d1bdd37fbb1d3222a0277edb25bd22aba80093?placeholderIfAbsent=true&apiKey=761b6e6b1cdb4241a9278975fab25b40"
               alt=""

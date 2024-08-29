@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WellmanReactCore.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d242dcfdd15633c4edf9683126116a47d442e6fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+977c429fa0051b1d7295fce07b4f92aa9faa4462")]
 [assembly: System.Reflection.AssemblyProductAttribute("WellmanReactCore.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WellmanReactCore.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,12 +4,28 @@ import MenuSection from './MenuSection';
 import SubMenu from './SubMenu';
 
 const costViewsOptions = [
-  "General", "Daily Cost", "Time Log", "Drill Strings", "Material Transfer",
-  "Material Used & Received", "Mud Check", "Mud Solid Control", "Mud Volumes",
-  "MWD Surveys", "Personnel", "Pumps", "Rentals", "Safety", "Shakers", "Water & fuel"
+    { label: "General", isActive: false, canOpenDrawer: false },
+    { label: "Daily Cost", isActive: true, canOpenDrawer: true },
+    { label: "Time Log", isActive: true, canOpenDrawer: true },
+    { label: "Drill Strings", isActive: false, canOpenDrawer: false },
+    { label: "Material Transfer", isActive: false, canOpenDrawer: false },
+    { label: "Material Used & Received", isActive: false, canOpenDrawer: false },
+    { label: "Mud Check", isActive: true, canOpenDrawer: true },
+    { label: "Mud Solid Control", isActive: false, canOpenDrawer: false },
+    { label: "Mud Volumes", isActive: false, canOpenDrawer: false },
+    { label: "MWD Surveys", isActive: false, canOpenDrawer: false },
+    { label: "Personnel", isActive: false, canOpenDrawer: false },
+    { label: "Pumps", isActive: false, canOpenDrawer: false },
+    { label: "Rentals", isActive: false, canOpenDrawer: false },
+    { label: "Safety", isActive: false, canOpenDrawer: false },
+    { label: "Shakers", isActive: false, canOpenDrawer: false },
+    { label: "Water & fuel", isActive: false, canOpenDrawer: false }
 ];
 
-const casingStringOptions = ["General", "Casing String"];
+const casingStringOptions = [
+    { label: "General", isActive: false, canOpenDrawer: false },
+    { label: "Casing String", isActive: false, canOpenDrawer: false }
+];
 
 const OptionsMenu: React.FC = () => {
   return (

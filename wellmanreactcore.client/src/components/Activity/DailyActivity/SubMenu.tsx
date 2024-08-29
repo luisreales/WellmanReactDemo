@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
 import styles from './DailyActivity.module.css';
-import { Drawer, Button, Box } from '@mui/material';
+import { Drawer, Box } from '@mui/material';
 import FormActivity from '../FormActivity/FormActivity';
 
 interface SubMenuProps {
-    options: string[];
+    options: { label: string; isActive: boolean; canOpenDrawer: boolean }[];
 }
 
 const SubMenu: React.FC<SubMenuProps> = ({ options }) => {
     const [drawerOpen, setDrawerOpen] = useState(false);
+    const [selectedActivity, setSelectedActivity] = useState<string | null>(null);
 
-    const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
+    const toggleDrawer = (open: boolean, activity?: string) => (event: React.KeyboardEvent | React.MouseEvent) => {
         setDrawerOpen(open);
+        if (activity) {
+            setSelectedActivity(activity);
+        }
     };
 
     return (
@@ -21,34 +25,34 @@ const SubMenu: React.FC<SubMenuProps> = ({ options }) => {
                     <li key={index} className={styles.subMenuItem}>
                         <button
                             className={styles.subMenuButton}
-                            onClick={toggleDrawer(true)}
+                            onClick={option.canOpenDrawer ? toggleDrawer(true, option.label) : undefined}
+                            style={{ cursor: option.canOpenDrawer ? 'pointer' : 'default' }}
+                            disabled={!option.canOpenDrawer}
                         >
                             <span
                                 className={styles.dot}
-                                style={{ backgroundColor: index < 4 ? '#19CB60' : 'black' }}
+                                style={{ backgroundColor: option.isActive ? '#19CB60' : 'black' }}
                             ></span>
-                            <span className={styles.optionLabel}>{option}</span>
+                            <span className={styles.optionLabel}>{option.label}</span>
                         </button>
                     </li>
                 ))}
             </ul>
 
-            {/* Drawer component */}
             <Drawer
                 anchor="right"
                 open={drawerOpen}
                 onClose={toggleDrawer(false)}
                 sx={{
                     '& .MuiDrawer-paper': {
-                        width: '800px', 
+                        width: '1100px',
                         padding: '20px',
                         height: '800px'
                     },
                 }}
             >
-                <Box role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
-                    <FormActivity>
-                    </FormActivity>
+                <Box role="presentation">
+                    {selectedActivity && <FormActivity activityType={selectedActivity} toggleDrawer={toggleDrawer} />}
                 </Box>
             </Drawer>
         </div>

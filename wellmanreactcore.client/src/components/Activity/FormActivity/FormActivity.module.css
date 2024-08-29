@@ -1,6 +1,7 @@
 .dailyCostsContainer {
     display: flex;
-  }
+    flex-direction: column;
+}
   .navBar {
     align-items: start;
     border-bottom: 1px solid #e8e8e8;
@@ -8,7 +9,7 @@
     box-shadow: 0 0 4px 0 rgba(190, 199, 205, 0.4);
     position: relative;
     display: flex;
-    min-height: 70px;
+    height: 100px;
     width: 100%;
     padding: 0 21px;
   }
@@ -183,3 +184,14 @@
     font-weight: 700;
     border-left: 2px solid #2a55ee;
   }
+
+.sidebarAndContent {
+    display: flex;
+    width: 100%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

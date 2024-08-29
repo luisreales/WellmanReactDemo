@@ -98,7 +98,7 @@ const ActivityDetailsDrawer: React.FC<ActivityDetailsDrawerProps> = ({ activityI
                     <BoxActivitySideGeneral activityData={activityData} />
                     <Drawer anchor="right" open={toggleDailyActivity} onClose={handleClose}>
                         <DailyActivity onClose={handleClose} />
-                        </Drawer>
+                     </Drawer>
                     </div>
                }
             </Box>

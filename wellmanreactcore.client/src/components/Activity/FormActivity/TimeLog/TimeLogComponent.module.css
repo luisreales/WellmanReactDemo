@@ -1,0 +1,226 @@
+.timeLogContainer {
+    display: flex;
+    max-width: 997px;
+    flex-direction: column;
+}
+
+.entryForm {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 1px 0 5px 0 rgba(190, 199, 205, 0.2);
+    align-self: center;
+    display: flex;
+    min-height: 83px;
+    width: 100%;
+    max-width: 964px;
+    overflow: hidden;
+    font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.formLine {
+    background-color: #2a55ee;
+    width: 5px;
+    height: 83px;
+}
+
+.formBackground {
+    align-items: start;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #d6deea;
+    border-left: none;
+    box-shadow: 1px 0 5px 0 rgba(190, 199, 205, 0.2);
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.formWrapper {
+    display: flex;
+    width: 100%;
+    align-items: end;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.inputField, .dropdownField {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+.inputLabel, .dropdownLabel {
+    font-size: 11px;
+    color: #555;
+    font-weight: 500;
+    line-height: 1;
+    padding: 1px 0;
+}
+
+.inputElement, .dropdownElement {
+    border-radius: 4px;
+    border: 1px solid #b6c5da;
+    background-color: #fff;
+    font-size: 12px;
+    color: #9d9d9d;
+    padding: 9px 10px;
+}
+
+.requiredAsterisk {
+    color: #ff004d;
+}
+
+.addButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a55ee;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 18px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttonIcon {
+    margin-right: 4px;
+}
+
+.timeLogInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    width: 100%;
+    max-width: 967px;
+}
+
+.infoHeader {
+    display: flex;
+    gap: 17px;
+}
+
+.infoTitle {
+    color: #333;
+    font: 700 12px/1 Roboto, sans-serif;
+}
+
+.infoResults {
+    font-weight: 400;
+}
+
+.totalTime {
+    background-color: #f5f8fd;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.totalTimeLabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.totalTimeValue {
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.infoActions {
+    display: flex;
+    gap: 12px;
+}
+
+.nptButton, .clearFormButton {
+    border-radius: 6px;
+    border: 1px solid #c2c2c2;
+    background: none;
+    padding: 7px 12px;
+    font-size: 11px;
+    color: #555;
+    cursor: pointer;
+}
+
+.clearFormButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.timeLogTable {
+    margin-top: 11px;
+    width: 100%;
+}
+
+.tableHeader {
+    display: flex;
+    background-color: #f5f8fd;
+    border: 1px solid #d6deea;
+}
+
+.headerCell {
+    padding: 6px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    border-right: 1px solid #d6deea;
+}
+
+.tableBody {
+    border: 1px solid #d6deea;
+    border-top: none;
+}
+
+.tableRow {
+    display: flex;
+    border-bottom: 1px solid #d6deea;
+}
+
+    .tableRow:nth-child(even) {
+        background-color: #fbfcff;
+    }
+
+.tableCell {
+    padding: 10px;
+    font-size: 11px;
+    color: #333;
+    border-right: 1px solid #d6deea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addToChartCheckbox {
+    width: 18px;
+    height: 18px;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.actionIcon {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 991px) {
+    .entryForm, .timeLogInfo, .timeLogTable {
+        max-width: 100%;
+    }
+
+    .formWrapper {
+        flex-direction: column;
+    }
+
+    .inputField, .dropdownField {
+        width: 100%;
+    }
+}

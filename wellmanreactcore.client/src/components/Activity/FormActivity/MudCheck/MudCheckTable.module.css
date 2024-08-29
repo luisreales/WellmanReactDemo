@@ -1,0 +1,81 @@
+.mudChecksSection {
+    margin-top: 18px;
+    margin-left:30px;
+    width:885px;
+  }
+  
+  .mudChecksTitle {
+    color: #333;
+    font: 700 13px/30px Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -0.13px;
+    margin-bottom: 8px;
+  }
+  
+  .mudChecksTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #d6deea;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .mudChecksTable th,
+  .mudChecksTable td {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 11px;
+    border-bottom: 1px solid #d6deea;
+  }
+  
+  .mudChecksTable th {
+    background-color: #f5f8fd;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .mudChecksTable tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .statusBadge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  
+  .active {
+    background-color: #d7f6dc;
+    color: #029516;
+  }
+  
+  .producing {
+    background-color: #ffe1a7;
+    color: #f44900;
+  }
+  
+  .actionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .actionButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .mudChecksTable {
+      font-size: 10px;
+    }
+  
+    .mudChecksTable th,
+    .mudChecksTable td {
+      padding: 8px;
+    }
+  }
+
