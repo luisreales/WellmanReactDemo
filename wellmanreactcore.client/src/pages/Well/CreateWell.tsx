@@ -144,8 +144,6 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
     mode: "onBlur",
   });
 
-  console.log("errores", errors);
-
   const createWellbore = watch("createWellbore");
 
   const onSubmit = async (data: any) => {
@@ -202,12 +200,10 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
 
   const handleSuccessYes = () => {
     handleCloseModal();
-    console.log("Create activity for well");
   };
 
   const handleErrorYes = () => {
     handleCloseModal();
-    console.log("Redirect to existing well");
   };
 
     return (

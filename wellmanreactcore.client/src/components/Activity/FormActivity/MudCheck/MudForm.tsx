@@ -153,7 +153,24 @@ const MudForm = () => {
                 </div>
                 <div className="formGroup">
                     
-                    <TextField variant="outlined" label="Oil/Water Ratio" id="oilWaterRatio"  />
+                    <TextField
+                        variant="outlined"
+                        label="Oil/Water Ratio"
+                        id="oilWaterRatio"
+                        sx={{
+                            minWidth: '245px',
+                            paddingBottom: '0px',
+                            '& .MuiInputLabel-root': {
+                                color: '#CCC',
+                                fontSize: '10px',
+                                lineHeight: '1.5',
+                                paddingTop: '0px'
+                            },
+                            '& .MuiOutlinedInput-input': {
+                                height: '1.675em'
+                            }
+                        }}
+                    />
                 </div>
                 <div className="formGroup">
                     <UnitInputWithoutControl

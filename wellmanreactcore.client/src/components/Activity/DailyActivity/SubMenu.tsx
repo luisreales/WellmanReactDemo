@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './DailyActivity.module.css';
 import { Drawer, Box } from '@mui/material';
 import FormActivity from '../FormActivity/FormActivity';
@@ -12,11 +12,17 @@ const SubMenu: React.FC<SubMenuProps> = ({ options }) => {
     const [selectedActivity, setSelectedActivity] = useState<string | null>(null);
 
     const toggleDrawer = (open: boolean, activity?: string) => (event: React.KeyboardEvent | React.MouseEvent) => {
+        console.log(`Drawer open: ${open}, Activity: ${activity}`);
         setDrawerOpen(open);
         if (activity) {
             setSelectedActivity(activity);
         }
     };
+
+    useEffect(() => {
+        console.log('Drawer open:', drawerOpen);
+        console.log('Selected activity:', selectedActivity);
+    }, [drawerOpen, selectedActivity]);
 
     return (
         <div>
@@ -43,10 +49,10 @@ const SubMenu: React.FC<SubMenuProps> = ({ options }) => {
                 anchor="right"
                 open={drawerOpen}
                 onClose={toggleDrawer(false)}
-
                 sx={{
                     '& .MuiDrawer-paper': {
                         width: '80%',
+                        maxWidth: '1100px',
                         padding: '20px',
                         height: '90%'
                     },

@@ -15,9 +15,12 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
         color: theme.palette.primary.main,
         '& + .MuiSwitch-track': {
             background: 'none', 
-            opacity: 1,
+            backgroundColor: 'transparent!important'
         },
     },
+    'MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track': {
+        backgroundColor: 'transparent!important'
+    }
 }));
 
 
@@ -35,7 +38,7 @@ const handleChange = (event) => {
         Do you want to lock this Day?
       </label>
       <div className={styles.switchTrack}>
-              <CustomSwitch checked={checked} onChange={handleChange} />
+          <CustomSwitch checked={checked} onChange={handleChange} />
       </div>
     </div>
   );

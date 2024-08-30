@@ -15,12 +15,14 @@ interface NavBarProps {
 
 interface FormActivityProps {
     activityType: string;
-    toggleDrawer: (open: boolean) => void;
+    toggleDrawer: (open: boolean, activity?: string) => (event: React.KeyboardEvent | React.MouseEvent) => void;
 }
+
 
 const FormActivity: React.FC<FormActivityProps> = ({ activityType, toggleDrawer }) => {
     let navBarProps: NavBarProps;
 
+    // Define navbar props based on activity type
     if (activityType === "Daily Cost") {
         navBarProps = {
             title: 'Daily Costs',
@@ -58,13 +60,12 @@ const FormActivity: React.FC<FormActivityProps> = ({ activityType, toggleDrawer 
                 <div className={styles.mainContent}>
                     <NavBar {...navBarProps} toggleDrawer={toggleDrawer} />
                     <div className={styles.newComponentContainer}>
-                        {(activityType === "Time Log") ? <TimeLogComponent /> : null}
-                        {(activityType === "Daily Cost") ? <DailyCosts /> : null}
-                        {(activityType === "Mud Check") ? <MudCheckComponent /> : null}
+                        {activityType === "Time Log" && <TimeLogComponent />}
+                        {activityType === "Daily Cost" && <DailyCosts />}
+                        {activityType === "Mud Check" && <MudCheckComponent />}
                     </div>
                 </div>
             </div>
-
         </main>
     );
 }

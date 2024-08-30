@@ -31,7 +31,8 @@ const UnitInputWithoutControl: React.FC<UnitInputProps> = ({ name, label, placeh
                             alignItems: 'center',
                             height: '100%',
                             borderLeft: '1px solid #e0e0e0',
-                            fontSize: '10px'
+                            fontSize: '10px',
+                            minWidth: '30px'
                         }}
                     >
                         {unit}
@@ -39,6 +40,7 @@ const UnitInputWithoutControl: React.FC<UnitInputProps> = ({ name, label, placeh
                 ),
                 style: {
                     paddingRight: '0px',
+                    minWidth: '245px',
                     fontSize: '12px' // Adjust the font size for input text here if needed
                 },
             }}
@@ -67,7 +69,7 @@ const UnitInputWithoutControl: React.FC<UnitInputProps> = ({ name, label, placeh
                     paddingBottom: '2px',
                 },
                 '& .MuiTypography-root': {
-                    fontSize: '1rem', // Apply to Typography
+                    fontSize: '0.7rem', // Apply to Typography
                     lineHeight: '1.5',
                     color: '#374957',
                 },
