@@ -13,8 +13,7 @@ interface UnitInputProps {
     helperText?: string;
 }
 
-const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder, unit, required = false, error,
-    helperText, ...props }) => {
+const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder, unit, required = false, error, helperText }) => {
     return (
         <Controller
             name={name}
@@ -34,11 +33,11 @@ const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder
                             <InputAdornment
                                 position="end"
                                 sx={{
-                                    paddingLeft: '15px',
-                                    paddingRight: '15px',
-                                    paddingTop: '10px',
-                                    paddingBottom: '10px',
-                                    borderRadius: '0 4px 4px 0',
+                                    paddingLeft: '8px',
+                                    paddingRight: '8px',
+                                    paddingTop: '5px',
+                                    paddingBottom: '5px',
+                                    borderRadius: '0 8px 8px 0',
                                     backgroundColor: '#f5f5f5',
                                     color: '#4a4a4a',
                                     display: 'flex',
@@ -56,21 +55,28 @@ const UnitInput: React.FC<UnitInputProps> = ({ name, control, label, placeholder
                     }}
                     sx={{
                         '& .MuiOutlinedInput-input': {
-                            paddingRight: '0px',
-                            paddingTop: '2px',
-                            paddingBottom: '2px'
+                            padding: '8px 14px',
+                            fontSize: '0.8rem', // Ajustar el tamaño de la letra
                         },
                         '& .MuiOutlinedInput-root': {
+                            borderRadius: '8px', // Asegura que el borde sea consistente
                             '& fieldset': {
-                                borderColor: '#e0e0e0 !important',
+                                borderColor: '#e0e0e0',
+                            },
+                            '&:hover fieldset': {
+                                borderColor: '#6C728F',
+                            },
+                            '&.Mui-focused fieldset': {
+                                borderColor: '#6C728F',
                             },
                         },
                         '& .MuiInputLabel-root': {
                             color: '#CCC',
+                            fontSize: '0.8rem', // Ajustar el tamaño de la letra
                         },
                         '& .MuiInputLabel-root.Mui-focused': {
                             color: '#333333',
-                        }
+                        },
                     }}
                 />
             )}

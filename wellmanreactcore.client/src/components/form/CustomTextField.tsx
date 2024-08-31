@@ -8,7 +8,8 @@ import { TextField } from '@mui/material';
 const CustomTextField = styled(TextField)(({ theme }) => ({
     '& label': {
         color: '#CCC',
-        fontWeight: '400',
+        fontWeight: '300',
+        fontSize: '0.8rem',
         top: '-5px'
     },
     '& label.Mui-focused': {
@@ -16,8 +17,9 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
     },
     '& .MuiInputBase-input': {
         color: '#9D9D9D',
-        fontWeight: '400',
+        fontWeight: '300',
         lineHeight: '16px',
+        fontSize: '0.8rem',
     },
     '& .MuiOutlinedInput-root': {
         '& fieldset': {

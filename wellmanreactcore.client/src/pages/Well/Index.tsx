@@ -40,9 +40,7 @@ const AllWellsTable: React.FC = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [activityModalOpen, setActivityModalOpen] = useState(false);
   const [updateActivities, setUpdateActivities] = useState(false);
-  const handleOpenModal = () => {
-    setModalOpen(true);
-  };
+
 
   useEffect(() => {
     const fetchWells = async () => {
@@ -65,7 +63,11 @@ const AllWellsTable: React.FC = () => {
 
   const handleCloseModal = () => {
     setModalOpen(false);
-  };
+    };
+
+  const handleOpenModal = () => {
+      setModalOpen(true);
+    };
 
   const handleActivityOpenModal = () => {
     setActivityModalOpen(true);

@@ -35,6 +35,14 @@ const style = {
     overflowY: "auto",
 };
 
+const headerStyle = {
+    backgroundColor: "#E8EDFE",
+    padding: "16px",
+    borderTopLeftRadius: "8px",
+    borderTopRightRadius: "8px",
+    marginBottom: "20px",
+};
+
 interface CreateActivityModalProps {
     open: boolean;
     onClose: () => void;
@@ -142,19 +150,21 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
                 aria-describedby="create-activity-modal-description"
             >
                 <Box sx={style}>
+                    <Box sx={headerStyle}>
+                        <Typography
+                            style={{ fontFamily: "Be Vietnam Pro" }}
+                            id="create-well-modal-title"
+                            variant="h6"
+                            component="h2"
+                            sx={{ fontWeight: "bold" }}
+                        >
+                            Create Activity
+                        </Typography>
+                    </Box>
+                    <Box sx={{ paddingLeft: '20px', paddingRight: '20px', paddingBottom: '20px' }} >
                     <Typography
                         style={{ fontFamily: "Be Vietnam Pro" }}
-                        id="create-activity-modal-title"
-                        variant="h6"
-                        component="h2"
-                        sx={{ fontWeight: "bold" }}
-                    >
-                        Create Activity
-                    </Typography>
-                    <Divider sx={{ my: 2 }} />
-                    <Typography
-                        style={{ fontFamily: "Be Vietnam Pro" }}
-                        sx={{ mt: 2, color: "#555555", fontWeight: 500 }}
+                        sx={{ color: "#555555", fontWeight: 500 }}
                     >
                         Complete the following form with the required information.
                     </Typography>
@@ -199,8 +209,8 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
                                         errors.activityType ? errors.activityType.message : ""
                                     }
                                 />
-                            </Grid>
-                            <Grid item xs={6}>
+                                </Grid>
+                            <Grid item xs={6} sx={{ paddingTop: '20px' }}>
                                 <GenericSelector
                                     name="afeNumber"
                                     control={control}
@@ -225,7 +235,11 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
                                         />
                                     }
                                     label="Is Managed Pressure Drilling"
-                                    sx={{ color: "#555555" }}
+                                        sx={{
+                                            color: "#555555", '& .MuiFormControlLabel-label': {
+                                                fontSize: '0.7rem',
+                                            }
+                                        }}
                                 />
                             </Grid>
                             <Grid item xs={12}>
@@ -250,7 +264,8 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
                             <CancelButton handleClose={onClose} />
                             <CreateButton />
                         </Box>
-                    </form>
+                        </form>
+                    </Box>
                     <SuccessModal
                         open={openSuccessModal}
                         onClose={handleCloseModal}

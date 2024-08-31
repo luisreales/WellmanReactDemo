@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
 
 import {
@@ -14,6 +14,8 @@ import "./styleDetail.css";
 import WellDashboard from "./WellDashboard";
 import StatusIndicator from "../../components/Activity/ActivityCard/StatusIndicator";
 import WellTabs from "./WellTabs";
+import CreateWellModal from "./CreateWell";
+import CreateActivityModal from "./CreateActivity";
 
 // WellData.ts
 export interface WellData {
@@ -30,11 +32,29 @@ export interface WellData {
 }
 
 const WellDetail: React.FC = () => {
-  const { wellId } = useParams<{ wellId: string }>();
+    const { wellId } = useParams<{ wellId: string }>();
+    const [modalOpen, setModalOpen] = useState(false);
+    const [activityModalOpen, setActivityModalOpen] = useState(false);
+    const [updateActivities, setUpdateActivities] = useState(false);
   const navigate = useNavigate();
   const handleBackButtonClick = () => {
     navigate('/Wells'); 
-  };
+    };
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
+
+    const handleOpenModal = () => {
+        setModalOpen(true);
+    };
+
+    const handleActivityOpenModal = () => {
+        setActivityModalOpen(true);
+    };
+
+    const handleActivityCloseModal = () => {
+        setActivityModalOpen(false);
+    };
 
     return (
         <div style={{ paddingLeft: '20px', paddingRight: '20px' }}>
@@ -51,8 +71,8 @@ const WellDetail: React.FC = () => {
              </div>
              <Box sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                  <CreateButtonWithMenu
-                     onCreateWellClick={() => { }}
-                     onCreateActivityClick={() => { }}
+                        onCreateWellClick={handleOpenModal}
+                        onCreateActivityClick={handleActivityOpenModal}
                  />
                  <IconButton
                      iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/b588d60689ddc5144466d9b667c66d8e7fe9e20fe55ad753b1a6ffb75153851a?placeholderIfAbsent=true&apiKey=761b6e6b1cdb4241a9278975fab25b40"
@@ -60,9 +80,18 @@ const WellDetail: React.FC = () => {
                  />
              </Box>
          </MuiToolbar>
-            <WellDashboard wellId={wellId} />
-            <WellTabs />
-
+         <WellDashboard wellId={wellId} />
+         <WellTabs />
+            <CreateWellModal
+                open={modalOpen}
+                onClose={handleCloseModal}
+                setUpdateActivities={setUpdateActivities}
+                updateActivities={updateActivities}
+            />
+            <CreateActivityModal
+                open={activityModalOpen}
+                onClose={handleActivityCloseModal}
+            />
       </div>
   );
 }

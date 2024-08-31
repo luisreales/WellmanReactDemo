@@ -44,11 +44,13 @@ const MultiSelectAutocomplete: React.FC<MultiSelectProps> = ({ options, placehol
                                     label={option.Text}
                                     {...rest}
                                     sx={{
-                                        backgroundColor: '#CCC',
-                                        color: '#000',
+                                        backgroundColor: '#E8EDFE',
+                                        color: '#333',
+                                        fontSize: '0.8rem',
+                                        height: '24px',
                                         '.MuiChip-deleteIcon': {
                                             color: '#000',
-                                        }
+                                        },
                                     }}
                                 />
                             );
@@ -63,14 +65,26 @@ const MultiSelectAutocomplete: React.FC<MultiSelectProps> = ({ options, placehol
                             sx={{
                                 '& .MuiInputLabel-root': {
                                     color: '#CCC',
+                                    fontSize: '0.8rem',
                                 },
                                 '& .MuiInputLabel-root.Mui-focused': {
-                                    color: '#333333',
+                                    color: '#333',
                                 },
                                 '& .MuiOutlinedInput-root': {
+                                    borderRadius: '8px',
                                     '& fieldset': {
-                                        borderColor: '#e0e0e0 !important',
+                                        borderColor: '#B6C5DA',
                                     },
+                                    '&:hover fieldset': {
+                                        borderColor: '#6C728F',
+                                    },
+                                    '&.Mui-focused fieldset': {
+                                        borderColor: '#6C728F',
+                                    },
+                                },
+                                '& .MuiOutlinedInput-input': {
+                                    padding: '8px 14px',
+                                    fontSize: '0.8rem',
                                 },
                             }}
                         />

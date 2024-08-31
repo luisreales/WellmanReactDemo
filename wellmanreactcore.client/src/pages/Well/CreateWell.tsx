@@ -27,19 +27,20 @@ import SuccessModal from "../../components/form/SuccessModal";
 import ErrorModal from "../../components/form/ErrorModal";
 
 const style = {
-  fontFamily: "Be Vietnam Pro",
-  position: "absolute" as "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 762,
-  bgcolor: "background.paper",
-  boxShadow: 24,
-  borderRadius: 2,
-  p: 4,
-  maxHeight: "90vh",
-  overflowY: "auto",
+    fontFamily: "Be Vietnam Pro",
+    position: "absolute" as "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 762,
+    bgcolor: "background.paper",
+    boxShadow: 24,
+    borderRadius: 2,
+    p: 4,
+    maxHeight: "90vh",
+    overflowY: "auto",
 };
+
 
 interface CreateWellModalProps {
   open: boolean;
@@ -204,7 +205,15 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
 
   const handleErrorYes = () => {
     handleCloseModal();
-  };
+    };
+
+    const headerStyle = {
+        backgroundColor: "#E8EDFE",
+        padding: "16px",
+        borderTopLeftRadius: "8px",
+        borderTopRightRadius: "8px",
+        marginBottom: "20px",
+    };
 
     return (
       <>
@@ -215,23 +224,25 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
       aria-describedby="create-well-modal-description"
     >
       <Box sx={style}>
+                    <Box sx={headerStyle}>
+                        <Typography
+                            style={{ fontFamily: "Be Vietnam Pro" }}
+                            id="create-well-modal-title"
+                            variant="h6"
+                            component="h2"
+                            sx={{ fontWeight: "bold" }}
+                        >
+                            Create Well
+                        </Typography>
+                    </Box>
+                    
+                    <Box sx={{ padding: '20px' }} >
         <Typography
           style={{ fontFamily: "Be Vietnam Pro" }}
-          id="create-well-modal-title"
-          variant="h6"
-          component="h2"
-          sx={{ fontWeight: "bold" }}
-        >
-          Create Well
-        </Typography>
-        <Divider sx={{ my: 2 }} />
-        <Typography
-          style={{ fontFamily: "Be Vietnam Pro" }}
-          sx={{ mt: 2, color: "#555555", fontWeight: 500 }}
+          sx={{ color: "#555555", fontWeight: 500 }}
         >
           Complete the following form with the required information.
         </Typography>
-
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid container spacing={2} sx={{ mt: 2 }}>
             <Grid item xs={12}>
@@ -277,7 +288,14 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
             </Grid>
 
             <Grid item xs={12}>
-              <Divider sx={{ my: 2 }} />
+                                    <Divider sx={{ my: 2 }} />
+                                    <Typography
+                                        style={{ fontFamily: "Be Vietnam Pro" }}
+                                        id="create-well-modal-title"
+                                        sx={{ fontWeight: "bold" }}
+                                    >
+                                        Create Wellbore
+                                    </Typography>
               <FormControlLabel
                 control={
                   <Controller
@@ -290,7 +308,10 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
                   />
                 }
                 label="Mark this check if you want to create a Wellbore"
-                sx={{ color: "#555555" }}
+                                        sx={{
+                                            color: "#555555", '& .MuiFormControlLabel-label': {
+                                                fontSize: '0.7rem',  // Ajusta el tamaño del texto aquí
+                                            } }}
               />
             </Grid>
 
@@ -433,7 +454,8 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
             <CancelButton handleClose={onClose} />
             <CreateButton />
           </Box>
-        </form>
+                        </form>
+                    </Box>
         <SuccessModal
           open={openSuccessModal}
           onClose={handleCloseModal}

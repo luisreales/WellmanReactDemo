@@ -33,7 +33,7 @@ const GenericSelector: React.FC<GenericSelectorProps> = ({
   helperText,
 }) => {
   return (
-    <FormControl variant="outlined" fullWidth error={error} required={required}>
+    <FormControl variant="outlined" fullWidth error={error} required={required} >
       <InputLabel
         required={required}
         sx={{
@@ -42,9 +42,10 @@ const GenericSelector: React.FC<GenericSelectorProps> = ({
             color: error ? "#d32f2f" : "#333",
           },
           "& .MuiFormLabel-asterisk": {
-            color: "#d32f2f", // Color del asterisco
-            visibility: "visible", // Asegúrate de que el asterisco sea visible
-          },
+            color: "#d32f2f",
+            visibility: "visible",
+            },
+            top: "-7px",
         }}
       >
         {placeholder}
@@ -59,12 +60,20 @@ const GenericSelector: React.FC<GenericSelectorProps> = ({
             label={`${placeholder}${required ? ' *' : ''}`}
             fullWidth
             required={required}
-            sx={{
+                sx={{
+                    "& .MuiOutlinedInput-input": {
+                        padding: "11.5px 5px 11.5px 10px",
+                        display: 'flex',
+                        alignItems: 'center'
+
+                    },
               borderColor: error ? "#d32f2f" : "#ccc",
               borderRadius: "8px",
               "&.MuiOutlinedInput-root": {
+                  fontSize: '0.7rem',
+                  
                 "& fieldset": {
-                  borderColor: error ? "#d32f2f" : "#ccc",
+                    borderColor: error ? "#d32f2f" : "#B6C5DA",
                 },
                 "&:hover fieldset": {
                   borderColor: error ? "#d32f2f" : "#333",

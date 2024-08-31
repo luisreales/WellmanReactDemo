@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Probar2\\WellmanReactDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\formactivity\\formactivitynavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\formactivity\\formactivitynavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welldetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welldetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\formactivity\\formactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\formactivity\\formactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\submenu.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\activity\\dailyactivity\\submenu.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\generictable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\generictable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\genericselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\genericselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\unitinput.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\unitinput.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\genericsearchselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\genericsearchselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\multiselectautocomplete.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\multiselectautocomplete.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\customtextfield.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\customtextfield.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,58 +50,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormActivityNavBar.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivityNavBar.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivityNavBar.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivityNavBar.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivityNavBar.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-30T17:44:59.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubMenu.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\SubMenu.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\SubMenu.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\SubMenu.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\DailyActivity\\SubMenu.tsx",
-              "ViewState": "AQIAACkAAAAAAAAAAAAcwD0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-30T17:40:11.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormActivity.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivity.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivity.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivity.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\Activity\\FormActivity\\FormActivity.tsx",
-              "ViewState": "AQIAACMAAAAAAAAAAIAxwDwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-30T17:39:44.827Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericTable.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "ViewState": "AQIAABkAAAAAAAAAAIA1wDMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T23:46:53.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAcwCkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T23:49:05.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WellDetail.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T23:46:20.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateActivity.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
+              "ViewState": "AQIAADgAAAAAAAAAAAAewFAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T23:25:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitInput.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\UnitInput.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\UnitInput.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\UnitInput.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\form\\UnitInput.tsx",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T21:52:32.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MultiSelectAutocomplete.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\MultiSelectAutocomplete.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\MultiSelectAutocomplete.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\MultiSelectAutocomplete.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\form\\MultiSelectAutocomplete.tsx",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T21:41:27.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericSearchSelector.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\GenericSearchSelector.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\GenericSearchSelector.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\GenericSearchSelector.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\form\\GenericSearchSelector.tsx",
+              "ViewState": "AQIAADAAAAAAAAAAAAAuwD0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T21:15:29.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateWell.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
+              "ViewState": "AQIAABUBAAAAAAAAAAAuwDkBAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T20:40:18.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericSelector.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T20:39:48.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomTextField.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\CustomTextField.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\CustomTextField.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\CustomTextField.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\form\\CustomTextField.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T20:35:59.727Z",
+              "EditorCaption": ""
             }
           ]
         }
