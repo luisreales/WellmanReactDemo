@@ -39,6 +39,7 @@ const style = {
     p: 4,
     maxHeight: "90vh",
     overflowY: "auto",
+    padding: '0!important'
 };
 
 

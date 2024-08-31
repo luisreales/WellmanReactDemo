@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Probar2\\WellmanReactDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\welldetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\welldetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\generictable.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createactivity.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\genericselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\components\\form\\genericselector.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|solutionrelative:wellmanreactcore.client\\src\\pages\\well\\createwell.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC13453-2D34-4E25-B3D6-158CFBA2335B}|wellmanreactcore.client\\wellmanreactcore.client.esproj|c:\\probar2\\wellmanreactdemo\\wellmanreactcore.client\\src\\components\\form\\unitinput.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,80 +58,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenericTable.tsx",
-              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
-              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
-              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
-              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
-              "ViewState": "AQIAABkAAAAAAAAAAIA1wDMAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-30T23:46:53.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\Index.tsx",
@@ -144,26 +79,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WellDetail.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
               "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
               "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\WellDetail.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-08-30T23:46:20.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CreateActivity.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
               "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
               "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\CreateActivity.tsx",
-              "ViewState": "AQIAADgAAAAAAAAAAAAewFAAAAAyAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-08-30T23:25:20.167Z",
               "EditorCaption": ""
@@ -209,13 +144,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CreateWell.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
               "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
               "RelativeToolTip": "wellmanreactcore.client\\src\\pages\\Well\\CreateWell.tsx",
-              "ViewState": "AQIAABUBAAAAAAAAAAAuwDkBAAAwAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-08-30T20:40:18.677Z",
               "EditorCaption": ""
@@ -223,6 +158,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GenericTable.tsx",
+              "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "ToolTip": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "RelativeToolTip": "wellmanreactcore.client\\src\\components\\GenericTable.tsx",
+              "ViewState": "AQIAABkAAAAAAAAAAIA1wDMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-30T23:46:53.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GenericSelector.tsx",
               "DocumentMoniker": "C:\\Probar2\\WellmanReactDemo\\wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",
               "RelativeDocumentMoniker": "wellmanreactcore.client\\src\\components\\form\\GenericSelector.tsx",

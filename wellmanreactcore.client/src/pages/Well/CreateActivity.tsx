@@ -28,11 +28,10 @@ const style = {
     transform: "translate(-50%, -50%)",
     width: 762,
     bgcolor: "background.paper",
-    boxShadow: 24,
     borderRadius: 2,
-    p: 4,
     maxHeight: "90vh",
     overflowY: "auto",
+    padding:'0!important'
 };
 
 const headerStyle = {
