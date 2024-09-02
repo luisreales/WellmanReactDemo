@@ -16,6 +16,7 @@ import StatusIndicator from "../../components/Activity/ActivityCard/StatusIndica
 import WellTabs from "./WellTabs";
 import CreateWellModal from "./CreateWell";
 import CreateActivityModal from "./CreateActivity";
+import activitiesSource from "./../../data/Activities.json";
 
 // WellData.ts
 export interface WellData {
@@ -31,8 +32,21 @@ export interface WellData {
     wellName?: string;
 }
 
+interface Activity {
+    activityId: string;
+    activityName: string;
+    status: string;
+    jobType: string;
+    afeNumber: string;
+    startDate: string;
+    endDate: string;
+    lastReport: string;
+    calendar: string;
+}
+
 const WellDetail: React.FC = () => {
     const { wellId } = useParams<{ wellId: string }>();
+    const [activities, setActivities] = useState<Activity[]>(activitiesSource as Activity[]);
     const [modalOpen, setModalOpen] = useState(false);
     const [activityModalOpen, setActivityModalOpen] = useState(false);
     const [updateActivities, setUpdateActivities] = useState(false);
@@ -81,7 +95,7 @@ const WellDetail: React.FC = () => {
              </Box>
          </MuiToolbar>
          <WellDashboard wellId={wellId} />
-         <WellTabs />
+            <WellTabs activities={activities}  />
             <CreateWellModal
                 open={modalOpen}
                 onClose={handleCloseModal}
@@ -91,6 +105,8 @@ const WellDetail: React.FC = () => {
             <CreateActivityModal
                 open={activityModalOpen}
                 onClose={handleActivityCloseModal}
+                activitiesProp={activities}
+                setActivities={setActivities}
             />
       </div>
   );

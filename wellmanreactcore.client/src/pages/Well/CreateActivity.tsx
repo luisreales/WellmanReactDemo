@@ -42,9 +42,22 @@ const headerStyle = {
     marginBottom: "20px",
 };
 
+interface Activity {
+    activityId: string;
+    activityName: string;
+    status: string;
+    jobType: string;
+    afeNumber: string;
+    startDate: string;
+    endDate: string;
+    lastReport: string;
+    calendar: string;
+}
 interface CreateActivityModalProps {
     open: boolean;
     onClose: () => void;
+    activitiesProp: Activity[];
+    setActivities: React.Dispatch<React.SetStateAction<Activity[]>>;
 }
 
 const activityTypeOptions = [
@@ -77,7 +90,10 @@ const schema = Yup.object().shape({
     isManagedPressureDrilling: Yup.boolean(),
 });
 
-const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose }) => {
+
+
+const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose, activitiesProp, setActivities }) => {
+
     const [openSuccessModal, setOpenSuccessModal] = useState(false);
     const [openErrorModal, setOpenErrorModal] = useState(false);
     const [loading, setLoading] = useState(false);
@@ -114,19 +130,32 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
                 FieldReportManagers: data.fieldReportManagers.map((item: any) => item.Text).join(", "),
             };
 
-            const response = await axiosInstance.post(
-                "/Activity",
-                payload
-            );
+            const newActivity = {
+                activityId: String(activitiesProp.length + 1),
+                activityName: data.name,
+                status: "Active",
+                jobType: "N/A",
+                afeNumber: data.afeNumber,
+                startDate: new Date().toLocaleDateString(),
+                endDate: "None",
+                lastReport: new Date().toLocaleDateString(),
+                calendar: "calendar-icon",
+            }
+
+            //const response = await axiosInstance.post(
+            //    "/Activity",
+            //    payload
+            //);
 
             setLoading(false);
 
-            if (response.status === 200 && response.data) {
-                setOpenSuccessModal(true);
+            //if (response.status === 200 && response.data) {
+            setOpenSuccessModal(true);
+            setActivities(activitiesProp => [newActivity,...activitiesProp]);
                 reset();
-            } else if (response.data.error) {
-                setOpenErrorModal(true);
-            }
+            //} else if (response.data.error) {
+            //    setOpenErrorModal(true);
+            //}
         } catch (error) {
             setLoading(false);
             console.error("Error sending data:", error);

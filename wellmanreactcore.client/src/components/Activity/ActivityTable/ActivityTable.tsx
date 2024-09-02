@@ -49,13 +49,21 @@ interface Column {
     align?: 'right' | 'left' | 'center';
 }
 
-interface Data {
-    [key: string]: string | number;
+interface Activity {
+    activityId: string;
+    activityName: string;
+    status: string;
+    jobType: string;
+    afeNumber: string;
+    startDate: string;
+    endDate: string;
+    lastReport: string;
+    calendar: string;
 }
 
 interface GenericTableProps {
     columns: Column[];
-    data: Data[];
+    data: Activity[];
 }
 
 const GenericTable: React.FC<GenericTableProps> = ({ columns, data }) => {

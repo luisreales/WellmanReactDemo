@@ -45,121 +45,25 @@ const columns = [
     { id: "calendar", label: " ", minWidth: 100 },
 ];
 
-const data = [
-    {
-        activityId: '1',
-        activityName: "Drilling (3D)",
-        status: "Active",
-        jobType: "N/A",
-        afeNumber: "XDR170005",
-        startDate: "Nov 30, 2023",
-        endDate: "None",
-        lastReport: "Dic 11, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '2',
-        activityName: "Workover",
-        status: "Active",
-        jobType: "WorkOver Completion",
-        afeNumber: "D75643",
-        startDate: "Ago 25, 2023",
-        endDate: "None",
-        lastReport: "Nov 16, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '3',
-        activityName: "Completion (2D)",
-        status: "Active",
-        jobType: "Initial Frac",
-        afeNumber: "6789",
-        startDate: "Jul 14, 2023",
-        endDate: "None",
-        lastReport: "Nov 22, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '4',
-        activityName: "Construction-1",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "M25252",
-        startDate: "Ago 8, 2023",
-        endDate: "None",
-        lastReport: "Sept 4, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '5',
-        activityName: "Initial Drilling",
-        status: "Completed",
-        jobType: "N/A",
-        afeNumber: "C75643",
-        startDate: "Jun 12, 2023",
-        endDate: "None",
-        lastReport: "Nov 17, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '6',
-        activityName: "Drilling 2",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "C98765",
-        startDate: "Jun 18, 2023",
-        endDate: "Jul 16, 2023",
-        lastReport: "Nov 9, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '7',
-        activityName: "Workover 1",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "C98765",
-        startDate: "Jun 18, 2023",
-        endDate: "Jul 16, 2023",
-        lastReport: "Nov 9, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '8',
-        activityName: "Reclamation",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "C98765",
-        startDate: "Jun 18, 2023",
-        endDate: "Jul 16, 2023",
-        lastReport: "Nov 9, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '9',
-        activityName: "Cleanup",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "D75643",
-        startDate: "Jun 09, 2023",
-        endDate: "None",
-        lastReport: "Nov 9, 2023",
-        calendar: "calendar-icon"
-    },
-    {
-        activityId: '10',
-        activityName: "Construction",
-        status: "Completed",
-        jobType: "None",
-        afeNumber: "D75643",
-        startDate: "Jun 05, 2023",
-        endDate: "None",
-        lastReport: "Nov 9, 2023",
-        calendar: "calendar-icon"
-    }
-];
+interface Activity {
+    activityId: string;
+    activityName: string;
+    status: string;
+    jobType: string;
+    afeNumber: string;
+    startDate: string;
+    endDate: string;
+    lastReport: string;
+    calendar: string;
+}
+
+interface ActivityListProps {
+    activities: Activity[];
+}
 
 
-export default function WellTabs() {
+
+const WellTabs: React.FC<ActivityListProps> = ({ activities }) => {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -174,7 +78,7 @@ export default function WellTabs() {
                     onChange={handleChange}
                     aria-label="basic tabs example"
                     variant="scrollable"
-                    scrollButtons="auto" 
+                    scrollButtons="auto"
                     TabIndicatorProps={{
                         sx: { backgroundColor: '#0056b3', height: '3px' }
                     }}
@@ -197,7 +101,7 @@ export default function WellTabs() {
                 </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
-                <ActivityTable columns={columns} data={data}></ActivityTable>
+                <ActivityTable columns={columns} data={activities}></ActivityTable>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
                 No AFEs Found
@@ -207,4 +111,6 @@ export default function WellTabs() {
             </CustomTabPanel>
         </Box>
     );
-}
+};
+
+export default WellTabs;
