@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useForm, Controller } from "react-hook-form";
 import {
     Modal,
@@ -139,6 +139,12 @@ const CreateActivityModal: React.FC<CreateActivityModalProps> = ({ open, onClose
         setOpenErrorModal(false);
         onClose();
     };
+
+    useEffect(() => {
+        if (!open) {
+            reset();
+        }
+    }, [open, reset]);
 
     return (
         <>

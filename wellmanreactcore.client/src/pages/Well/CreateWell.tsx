@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useForm, Controller } from "react-hook-form";
 import {
   Modal,
@@ -215,6 +215,12 @@ const CreateWellModal: React.FC<CreateWellModalProps> = ({ open, onClose, setUpd
         borderTopRightRadius: "8px",
         marginBottom: "20px",
     };
+
+    useEffect(() => {
+        if (!open) {
+            reset();
+        }
+    }, [open, reset]);
 
     return (
       <>
