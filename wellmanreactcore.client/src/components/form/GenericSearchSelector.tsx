@@ -60,7 +60,7 @@ const GenericSearchSelector: React.FC<GenericSearchSelectorProps> = ({
 
     const getDisplayValue = (value: GenericItem | null) => {
         if (!value || !value.Id) return '';
-        const parentItem = data.find(item => item[childrenKey]?.some(child => child.id === value.id));
+        const parentItem = data.find(item => item?.Name === value?.ParentName);
         return parentItem ? `${parentItem[labelKey]} / ${value[labelKey]}` : value[labelKey];
     };
 
