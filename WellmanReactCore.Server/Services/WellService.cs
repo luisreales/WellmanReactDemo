@@ -25,6 +25,8 @@ public class WellService : IWellService
             Ground = dto.Ground,
             CutOrFill = dto.CutOrFill,
             KBToGround = dto.KBToGround
+
+            // TODO:  Create fields for AFE(s), Email Reporting, User Groups
         };
 
         _context.Wells.Add(well);
@@ -38,6 +40,7 @@ public class WellService : IWellService
                 WellName = dto.WellboreName,
                 Status = dto.WellboreStatus,
                 WellId = well.WellId,
+                // TODO :
                 //SurfaceUWI = dto.SurfaceUWI,
                 //BottomUWI = dto.BottomUWI
             };
